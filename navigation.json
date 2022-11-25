@@ -3,12 +3,18 @@
     [
         {
             "text": "Home",
-            "target": "index.md",
+            "target": "_vnote.json",
             "toc": false
         },
         {
-            "text": "Notebook",
-            "target": "abc/vx.json",
+            "text": "Computer",
+            "target": "Computer/_vnote.json",
+            "navi": true,
+            "navi_expand_level": 1
+        },
+        {
+            "text": "English",
+            "target": "English/_vnote.json",
             "navi": true,
             "navi_expand_level": 1
         }
