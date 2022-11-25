@@ -1,0 +1,11 @@
+{
+    "navigation":
+    [
+        {
+            "text": "Notebook",
+            "target": "_vnote.json",
+            "navi": true,
+            "navi_index": "welcome.md"
+        }
+    ]
+}
