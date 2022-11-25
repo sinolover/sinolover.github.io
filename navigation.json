@@ -3,18 +3,18 @@
     [
         {
             "text": "Home",
-            "target": "_vnote.json",
+            "target": "vx.json",
             "toc": false
         },
         {
             "text": "Computer",
-            "target": "Computer/_vnote.json",
+            "target": "Computer/vx.json",
             "navi": true,
             "navi_expand_level": 1
         },
         {
             "text": "English",
-            "target": "English/_vnote.json",
+            "target": "English/vx.json",
             "navi": true,
             "navi_expand_level": 1
         }
