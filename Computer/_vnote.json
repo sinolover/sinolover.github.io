@@ -1,0 +1,27 @@
+{
+    "created_time": "2022-11-24T03:04:10Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2022-11-24T09:01:29Z",
+            "modified_time": "2022-11-25T01:35:39Z",
+            "name": "Technique.md",
+            "tags": [
+            ]
+        }
+    ],
+    "sub_directories": [
+        {
+            "name": "Dicom"
+        },
+        {
+            "name": "Linux"
+        },
+        {
+            "name": "Java"
+        }
+    ],
+    "version": "1"
+}
