@@ -1,0 +1,21 @@
+{
+    "created_time": "2022-11-28T05:01:04Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2022-11-28T05:01:10Z",
+            "id": "42",
+            "modified_time": "2022-11-28T05:38:58Z",
+            "name": "Technique.md",
+            "signature": "62725372002454",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+    ],
+    "id": "40",
+    "modified_time": "2022-11-28T05:01:04Z",
+    "signature": "139119955296400",
+    "version": 3
+}
