@@ -1,10 +1,5 @@
 # Java英语词汇
 
-**Mandatory**　畅通词汇
-- 英 \['mændətəri\]美 \['mændətɔːri\]
-- adj. 法定的；义务的；强制性的；受委托的
-- n. 受托管理者
-
 # QT VTK DICOM
 
 **props**
@@ -33,6 +28,11 @@
 - v. 缓行；溜蹄
 
 # NanoVision
+
+**Mandatory**　畅通词汇
+- 英 \['mændətəri\]美 \['mændətɔːri\]
+- adj. 法定的；义务的；强制性的；受委托的
+- n. 受托管理者
 
 **SAGITTAL**
 - 英 \['sædʒətəl\]美 \['sædʒətəl\]
@@ -142,27 +142,19 @@
 - vt. 鉴定；识别，辨认出，认出；认明；把…看成一样
 - vi. 认同；感同身受
 
-upfront　
+**upfront**
+- 英 \[ˌʌp'frʌnt\]美 \[ˌʌp'frʌnt\]
+- adj. 在前面的；预付的；直率的
+- adv 在前面； 在最前面.
 
-英 \[ˌʌp'frʌnt\]美 \[ˌʌp'frʌnt\]
+**provision**核心词汇
+- 英 \[prə'vɪʒn\]美 \[prə'vɪʒn\]
+- n. 食品；粮食；供应；规定；条款；预备；【经】准备金
+- vt. 向 ... 供应食物
 
-adj. 在前面的；预付的；直率的
-
-adv 在前面； 在最前面.
-
-provision　核心词汇
-
-英 \[prə'vɪʒn\]美 \[prə'vɪʒn\]
-
-n. 食品；粮食；供应；规定；条款；预备；【经】准备金
-
-vt. 向 ... 供应食物
-
-combination　常用词汇
-
-英 \[ˌkɒmbɪ'neɪʃn\]美 \[ˌkɑːmbɪ'neɪʃn\]
-
-n. 结合；结合到一起的事物或人；密码
+**combination**常用词汇
+- 英 \[ˌkɒmbɪ'neɪʃn\]美 \[ˌkɑːmbɪ'neɪʃn\]
+- n. 结合；结合到一起的事物或人；密码
 
 perimeter　扩展词汇
 
@@ -442,111 +434,56 @@ WYSIWYG: \[ ‘wiziwig \]
 
 kibana \[kɪbana\]
 
-Azure ATP：Azure Advanced Threat Protection
-
-CEF ： Common Exchange Format，通用交換格式
-
 xamarin \['zæmərɪn\]它的目标是 用C#开发iOS、Android和Windows Phone原生应用程序。Xamarin是mono项目的一个分支,但这里面最大的区别Xamarin是商业项目.mono做为跨平台的框架已得到越来越多的商业项目的肯定,令外界担心的版权问题\\可靠性\\稳定性也得到证实,使用mono最大的好处是可以使用其它平台众多的项目解决方案,而不必被限制在windows平台下贫乏而又昂贵的各种解决方案.作为一个跨平台开发框架，Xamarin.Mobile有很多优点。在这一框架内，开发iOS、Android、Windows Phone和Mac App应用可以不用转到Eclipse 或者额外购买Mac并使用Xcode，而继续在Visual Studio之中使用C#与.NET Framework进行。
 
-MSSP，Managed Security Service Provider，安全托管服务提供商。安全托管服务MSS即是将自己业务系统的安全运维工作外包给外部专业的[安全服务](https://baike.baidu.com/item/%E5%AE%89%E5%85%A8%E6%9C%8D%E5%8A%A1)供应商，自己不再承担系统的安全运维工作。
 
-OMS： Operations Management System
 
-SCOM：Microsoft System Center Operations Manager是微软推出的专业系统监控软件，可以监控部署在网络中的服务器、应用系统和客户端，提供图形化视图，使管理员可以监控目标计算机存在的故障和产生的警告
-
-企业相关
-
-- PDTL ：Project Delivery Team Lead 工程技术主管 项目分发组组长 PDT 经理及 PDT 核心组成员的基本角色与职责 PDT 是一个跨功能部门的产品开发团队， 负责对产品开发的整个过程， 从立项， 到产品开发， 到将产品推向市场，再到量产进行管理
-- PQA ：Process Quality Assurance 全程质量检测认证。PQA工程师是PDT(Product Development Team 产品开发团队)核心组的成员之一，确保产品开发按照公司既定的IPD流程进行，全流程统筹协调各功能领域的质量保证活动
-- BCS/SWD(即关键业务服务器和高端存储)售后工程师（HP的）
-
-【DNS相关】
-
-- CName ：Canonical Name 别名 规范名
-
-【chrome】
-
-- XHR类型即通过XMLHttpRequest方法发送的请求
-
-# SharePoint
-
-- CMP Content Management Package
-- WSP ：Windows SharePoint Package
-- OWA： Office Web Application，微软提供的可以在线查看和编辑Office系列文档的服务，包括Word/Excel/PPT/OneNote
-- OWC：Office Web Components，是一套ActiveX组件，能够在网页中展现工作簿上的数据透视表、数据透视视图、图形以及图像元素
-- CU： Cumulative Update
-- CA： Central of Administrator
-- DBML：Data Base Management/Markup Language 数据库管理语言
-- OOB： Out of the box
-- WCM：Web 内容管理
-- ASPX ：page ASHX：handler ASCX：component ASMX：Module
-- CAML：Collaborative Application Markup Language 协作应用程序标记语言
-- ECS：Excel Calculation Service Excel计算服务组件
-- EWA：Excel Web Access WebPart 网页存取部件
-- SOA：statement of account 对账单
-- ULS：Unified Logging Service 有时也叫Universal Logging Service 统一日志服务
-
-Propagation
-
+**Propagation**
 - 英 \[ˌprɒpə'ɡeɪʃn\]美 \[ˌprɒpə'ɡeɪʃn\]
 - n. 增殖；繁殖；传播；传送
 
-dapper
-
+**dapper**
 - 美\['dæpər\]英\['dæpə(r)\]
 - adj.矮小利落的；衣冠楚楚的
 - 网络整洁的；整洁漂亮的；短小精悍的
 
-Collaborative　
-
+**Collaborative**　
 - 英 \[kə'læbərətɪv\]美 \[kə'læbəreɪtɪv\]　
 - adj. 协作的；合作的
 
-Cumulative 扩展词汇
-
+**Cumulative** 扩展词汇
 - 英 \['kjuːmjələtɪv\]　 美 \['kjuːmjəleɪtɪv\]
 - adj. 累积的；渐增的；（红利、利息等）累计的
 
-GAC
-
-- Global Assembly Cache
-- 全局程序集缓存
-
-moss　 常用词汇
-
+**moss**　 常用词汇
 - 英 \[mɒs\]美 \[mɔːs\]
 - n. 苔藓；泥沼
 - vt. 使长满苔藓
 - MOSS （微软协作工具）Microsoft Office Sharepoint Server
 - MOSS ，是一款为企业客户而设计的、基于web的内容管理和协作工具。 该工具于2006年11月底正式发布，最新版本为2019
 
-obsolete　 扩展词汇
-
+**obsolete**　 扩展词汇
 - 英 \['ɒbsəliːt\]美 \[ˌɑːbsə'liːt\]
 - adj. 已废弃的；过时的
 
-Humongous
-
+**Humongous**
 - 英 \[hjuː'mʌŋɡəs\]美 \[hjuː'mʌŋɡəs\]
 - adj. <俚>极大的； 其大无比的
 - =humungous
 
-constraint 扩展词汇
-
+**constraint** 扩展词汇
 - 英 \[kən'streɪnt\]美 \[kən'streɪnt\]
 - n. 约束；强制；约束条件；对感情的压抑；虚情假意
 - \[计算机\]限制.
 
-pivot 扩展词汇
-
+**pivot** 扩展词汇
 - 英 \['pɪvət\]美 \['pɪvət\]
 - n. 枢；中心；旋转
 - adj. 在枢轴上转动的；关键的
 - vt. 装枢轴于；以 ... 为中心
 - vi. 在枢轴上转动
 
-cascade 扩展词汇
-
+**cascade** 扩展词汇
 - 英 \[kæ'skeɪd\]美 \[kæ'skeɪd\]
 - n. 瀑布；\[电\]串联
 - v. 瀑布似地落下；（将 ... ）连结；串联
@@ -610,202 +547,159 @@ cascade 扩展词汇
 - adj. 热的；热量的；保热的 
 - n. 上升的热气流
 
-gradient　 扩展词汇
-
+**gradient**　 扩展词汇
 - 英 \['ɡreɪdiənt\]　 美 \['ɡreɪdiənt\]
 - n. 倾斜度；坡度；梯度
 
-inductance　 畅通词汇
-
+**inductance**　 畅通词汇
 - 英 \[ɪn'dʌktəns\]　美 \[ɪn'dʌktəns\]
 - n. 电感；感应系数；电感器；自感应
 
-stall　 核心词汇
-
+**stall**　 核心词汇
 - 英 \[stɔːl\]　 美 \[stɔːl\]
 - n. 栅栏；小隔间；货摊；座位 
 - v. 把...关进畜舍里；失速；熄火；拖延；（使）动弹不得
 
-nominal　 常用词汇
-
+**nominal**　 常用词汇
 - 英 \['nɒmɪnl\]　美 \['nɑːmɪnl\]
 - adj. 名义上的；象征性的；名词性的 
 - n. 名词词组
 
-torque　 扩展词汇
-
+**torque**　 扩展词汇
 - 英 \[tɔːk\]美 \[tɔːrk\]
 - n. 转力；扭矩
 
-Circumference　 畅通词汇
-
+**Circumference**　 畅通词汇
 - 英 \[sə'kʌmfərəns\]美 \[sər'kʌmfərəns\]
 - n. 圆周；周围；周长
 
-raspberry　 畅通词汇
-
+**raspberry**　 畅通词汇
 - 英 \['rɑːzbəri\]美 \['ræzberi\]
 - n. 覆盆子；<俚>咂舌声（表嘲笑等
 
-rqt
-
-- 网络可靠性鉴定试验(reliability qualification test)；可靠性认证试验
-
-aptitude　 扩展词汇
-
+**aptitude**　 扩展词汇
 - 英 \['æptɪtjuːd\]美 \['æptɪtuːd\]　
 - n. 天资；资质；才能；倾向
 
-canonical　 畅通词汇
-
+**canonical**　 畅通词汇
 - 英 \[kə'nɒnɪkl\]美 \[kə'nɑːnɪkl\]
 - adj. 依教规的；圣典的；权威的；牧师的
 
-OpenCR (Open Source Control Module for ROS)
 
-Inertial　
-
+**Inertial**
 - 英 \[ɪ'nɜːʃl\]美 \[ɪ'nɜːrʃl\]
 - adj. 不活泼的；惯性的
-- 【IMU惯性测量单元简单介绍】  （英文：Inertial measurement unit，简称 IMU）是测量物体三轴姿态角(或角速率)以及加速度的装置。 一般的，一个IMU包含了三个单轴的加速度计和三个单轴的陀螺，加速度计检测物体在载体坐标系统独立三轴的加速度信号，而陀螺检测载体相对于导航坐标系的角速度信号，测量物体在三维空间中的角速度和加速度，并以此解算出物体的姿态。在导航中用着很重要的应用价值。  为了提高可靠性，还可以为每个轴配备更多的传感器。一般而言IMU要安装在被测物体的重心上。
+> 【IMU惯性测量单元简单介绍】  （英文：Inertial measurement unit，简称 IMU）是测量物体三轴姿态角(或角速率)以及加速度的装置。 一般的，一个IMU包含了三个单轴的加速度计和三个单轴的陀螺，加速度计检测物体在载体坐标系统独立三轴的加速度信号，而陀螺检测载体相对于导航坐标系的角速度信号，测量物体在三维空间中的角速度和加速度，并以此解算出物体的姿态。在导航中用着很重要的应用价值。  为了提高可靠性，还可以为每个轴配备更多的传感器。一般而言IMU要安装在被测物体的重心上。
 
-Magnetometer
-
+**Magnetometer**
 - 英 \[ˌmægnɪ'tɒmɪtə\]美 \[ˌmægnə'tɒmətə\]
 - n. 磁力计 
 
-Gyroscope　
-
+**Gyroscope**
 - 英 \['dʒaɪrəskəʊp\]美 \['dʒaɪrəskoʊp\]
 - n. 陀螺仪；回转仪
 
-pragma - 必应词典
-
+**pragma**
 - 美\[p'ræɡmə\]英\[p'ræɡmə\]
 - n.〔计〕杂注
 - 网络编译指示；显示编译指示；特殊指令
 
-devel
-
+**devel**
 - 美 \['devl\] 英 \['devl\]
 - n.〈英〉沉重打击；令人发晕的一击
 - v.〈英〉给…以沉重的一击
 - 网络开发；开发工具；程序开发工具
 
-Dongle　
-
+**Dongle**
 - 英 \['dɒŋɡl\] 美 \['dɑːŋɡl\]
 - n. 软件保护器；软件狗
 
-zeal - 必应词典
-
+**zeal**
 - 美\[zil\]英\[ziːl\]
 - n.热情；激情
 - 网络热忱；热心；热诚
 - 搭配great zeal；religious zeal；
-- 例句But to what extent the increased zeal of regulators will create cleaner markets is debatable.
-- 监管层的热情高涨了，但市场更干净到什么程度仍值得探讨。
+> 例句But to what extent the increased zeal of regulators will create cleaner markets is debatable.
+监管层的热情高涨了，但市场更干净到什么程度仍值得探讨。
 
-odom　
-
+**odom**
 - 英  美
 - n. 里程表(里程计；自动计程仪；测距器)
 
-ubuntu　
-
+**ubuntu**　
 - 英 \[ʊ'bʊntʊ\]美 \[ʊ'bʊntʊ\]　
 - n. <南非>集体分享精神；乌邦图(一个Linux操作系统版本)
 
-Xenial　
-
+**Xenial**　
 - 英 \['ziːnɪəl\]美 \['ziːnɪəl\]
 - adj. 款待的；主客关系的
 
-Zesty　
-
+**Zesty**
 - 英 \['zesti\] 美 \['zesti\]
 - adj. 兴致很高的
 
-kinetic　 扩展词汇
-
+**kinetic**　 扩展词汇
 - 英 \[kɪ'netɪk\]　 美 \[kɪ'netɪk\]
 - adj. 运动的；动力学的
 
-indigo　 扩展词汇
-
+**indigo**　 扩展词汇
 - 英 \['ɪndɪɡəʊ\]美 \['ɪndɪɡoʊ\]
 - n. 靛青；紫蓝色
 
-groovy　 畅通词汇
-
+**groovy**　 畅通词汇
 - 英 \['ɡruːvi\] 美 \['ɡruːvi\]
 - adj. <俚> 绝妙的；时髦的
 
-velocity　 常用词汇
-
+**velocity**　 常用词汇
 - 英 \[və'lɒsəti\] 美 \[və'lɑːsəti\]
 - n. 速度；迅速；速率
 
-Fuerte　
-
+**Fuerte**　
 - 英 　 　  美 　 　
 - 富埃尔特
 
-Hydro　 畅通词汇
-
+**Hydro**　 畅通词汇
 - 英 \['haɪdrəʊ\]美 \['haɪdroʊ\]
 - n. 水疗院；水力电
 - pref. 表示“水的”、“氢的”
 
-jade　 常用词汇
-
+**jade**　 常用词汇
 - 英 \[dʒeɪd\]美 \[dʒeɪd\]
 - n. 玉石；翡翠；翡翠色
 
-Octave　 畅通词汇
-
+**Octave**　 畅通词汇
 - 英 \['ɒktɪv\]美 \['ɑːktɪv\]
 - n. 八音度；倍频程
 
-tutorial　 扩展词汇
-
+**tutorial**　 扩展词汇
 - 英 \[tjuː'tɔːriəl\]　美 \[tuː'tɔːriəl\]
 - n. 指南；教程；辅导班
 - adj. 辅导的；个别指导的
 
-Galapagos　
-
+**Galapagos**
 - 英 　 　  美 
 - n. 加拉帕戈斯(群岛)
 
-Igloo　 畅通词汇
-
+**Igloo**　 畅通词汇
 - 英 \['ɪɡluː\]美 \['ɪɡluː\]
 - n. （爱斯基摩人用冰雪凝块砌成的）拱形圆顶小屋；冰屋
 
-Medusa　 畅通词汇
-
+**Medusa**　 畅通词汇
 - 英 \[mɪ'djuːzə\]美 \[mə'djuːsə\]
 - n. 水母
-
 - n. 美杜莎(古希腊神话中3位蛇发女怪之一)
 
-Kame　
-
+**Kame**　
 - 英 \[keɪm\] 美 \[keɪm\]
 - n. 冰砾阜；堆积物
 
-meta　 扩展词汇
-
+**meta**　 扩展词汇
 - 英 \['metə\] 美 \['metə\]
 - pref. 在 ... 之后； 变换； 超越；【计】元，meta语言； 介于 ... 之间
 
-SLAM(Simultaneous Localization and Mapping)：同时定位与建图(即时定位与地图构建)
 
-SLAM技术的实现途径主要包括VSLAM、Wifi-SLAM与Lidar SLAM
 
-Simultaneous　 常用词汇
-
+**Simultaneous** 常用词汇
 - 英 \[ˌsɪml'teɪniəs\]美 \[ˌsaɪml'teɪniəs\]
 - adj. 同时发生的；同步的
 
@@ -814,32 +708,6 @@ coerce　 扩展词汇(python 内置函数)
 - 英 \[kəʊ'ɜːs\] 美 \[koʊ'ɜːrs\]
 - vt. 强制；威胁
 
-DOM(Document Object Model)
-
-DTD(Document Type Definition)
-
-SAX(Simple API for XML)
-
-XSD(Xml Schema Definition)
-
-XSLT(Extensible Stylesheet Language Transformations),
-
-Java Management Extensions，即Java管理扩展
-
-Java虚拟机设计了专门的API接口供调试和监控虚拟机使用，被称为Java平台调试体系即Java Platform Debugger Architecture(JPDA)。JPDA按照抽象层次，又分为三层，
-
-PFA Please Find Attached (email attachments)
-
-FYI   For Your Information
-
-SOE:Sequence of Event 事件顺序记录
-
-保信:保护信息监控系统
-
-DGA
-
-- 中文全称: 变压器油中溶解气体分析
-- 英文全称: Dissolved Gas Analysis
 
 Dissolved　
 
@@ -1179,7 +1047,6 @@ OOP
 - adj.有界限的；界限划定；或确定的 
 - 动词delimit的过去式和过去分词.
 
-DTD 文档类型定义(Document Type Definition)；文档类型声明(Document Type Declaration)
 
 portfolio　常用词汇
 
@@ -1302,26 +1169,3 @@ static   静态的
 
 String   字符串类       
 
-# 异常
-
-RuntimeExcepiton 运行时异常
-
-ArithmeticException 算术异常
-
-IllegalArgumentException 非法数据异常
-
-ArrayIndexOutOfBoundsException 数组索引越界异常
-
-NullPointerException 空指针异常
-
-ClassNotFoundException 类无法加载异常（类不能找到）
-
-NumberFormatException 字符串到float类型转换异常（数字格式异常）
-
-IOException 输入输出异常
-
-FileNotFoundException 找不到文件异常
-
-EOFException 文件结束异常
-
-InterruptedException （线程）中断异常

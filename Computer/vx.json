@@ -11,6 +11,27 @@
         },
         {
             "name": "Linux"
+        },
+        {
+            "name": "API"
+        },
+        {
+            "name": "CPP"
+        },
+        {
+            "name": "CSharp"
+        },
+        {
+            "name": "DataBase"
+        },
+        {
+            "name": "HardWare"
+        },
+        {
+            "name": "RegEx"
+        },
+        {
+            "name": "SourceControl"
         }
     ],
     "id": "5",
