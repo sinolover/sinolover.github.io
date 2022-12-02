@@ -1,4 +1,9 @@
 # Java英语词汇
+# 
+
+**algorithm**  扩展词汇 
+- 英 \['ælɡərɪðəm\]  美 \['ælɡərɪðəm\] 
+-  n. 算法
 
 # QT VTK DICOM
 
