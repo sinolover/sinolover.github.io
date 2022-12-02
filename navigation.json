@@ -7,14 +7,38 @@
             "toc": false
         },
         {
+            "text": "English",
+            "target": "English/vx.json",
+            "navi": true,
+            "navi_expand_level": 1
+        },
+        {
             "text": "Computer",
             "target": "Computer/vx.json",
             "navi": true,
             "navi_expand_level": 1
         },
         {
-            "text": "English",
-            "target": "English/vx.json",
+            "text": "Electron",
+            "target": "Computer/vx.json",
+            "navi": true,
+            "navi_expand_level": 1
+        },
+        {
+            "text": "Robotics",
+            "target": "Computer/vx.json",
+            "navi": true,
+            "navi_expand_level": 1
+        },
+        {
+            "text": "Mathematics",
+            "target": "Computer/vx.json",
+            "navi": true,
+            "navi_expand_level": 1
+        },
+        {
+            "text": "跬步集",
+            "target": "跬步集/vx.json",
             "navi": true,
             "navi_expand_level": 1
         }
