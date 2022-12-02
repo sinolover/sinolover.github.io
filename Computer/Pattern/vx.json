@@ -10,6 +10,86 @@
             "signature": "177763635521",
             "tags": [
             ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-12-02T10:28:44Z",
+            "id": "118",
+            "modified_time": "2022-12-02T10:28:44Z",
+            "name": "10种常见的软件架构模式.md",
+            "signature": "20033397445468",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-12-02T10:28:44Z",
+            "id": "119",
+            "modified_time": "2022-12-02T10:28:44Z",
+            "name": "SOLID设计模式的六大原则.md",
+            "signature": "65031769805660",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-12-02T10:28:45Z",
+            "id": "120",
+            "modified_time": "2022-12-02T10:28:45Z",
+            "name": "三层架构与MVC的区别.md",
+            "signature": "33120162796381",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-12-02T10:28:45Z",
+            "id": "121",
+            "modified_time": "2022-12-02T10:28:45Z",
+            "name": "继承、实现、依赖、关联、聚合、组合的联系与区别.md",
+            "signature": "121347380990813",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-12-02T10:28:45Z",
+            "id": "122",
+            "modified_time": "2022-12-02T10:28:45Z",
+            "name": "设计模式总结-速记.md",
+            "signature": "29499505365853",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-12-02T10:28:46Z",
+            "id": "123",
+            "modified_time": "2022-12-02T10:28:46Z",
+            "name": "软件工程之软件过程模型.md",
+            "signature": "109725199487838",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-12-02T10:28:46Z",
+            "id": "124",
+            "modified_time": "2022-12-02T10:28:46Z",
+            "name": "软件开发模型.md",
+            "signature": "118731745907550",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-12-02T10:28:47Z",
+            "id": "125",
+            "modified_time": "2022-12-02T10:28:47Z",
+            "name": "软件架构设计的6大原则.md",
+            "signature": "140283891798879",
+            "tags": [
+            ]
         }
     ],
     "folders": [
