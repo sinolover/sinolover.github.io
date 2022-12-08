@@ -24,3 +24,19 @@
 | nvBaseServer        | SendScanStatus       | 0x8023 | => m_pCommModule->NotifyScanState      |                            |
 | nvBaseServer        | SendRSStatus         | 0x80XX |                                        | 空代码                     |
 | nvServer            | SendScanStatus       | 0x8023 | => m_pCommModule->NotifyScanState      |                            |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
