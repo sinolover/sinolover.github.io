@@ -20,19 +20,25 @@
         },
         {
             "text": "Electron",
-            "target": "Computer/vx.json",
+            "target": "Electron/vx.json",
             "navi": true,
             "navi_expand_level": 1
         },
         {
             "text": "Robotics",
-            "target": "Computer/vx.json",
+            "target": "Robotics/vx.json",
             "navi": true,
             "navi_expand_level": 1
         },
         {
             "text": "Mathematics",
-            "target": "Computer/vx.json",
+            "target": "Mathematics/vx.json",
+            "navi": true,
+            "navi_expand_level": 1
+        },
+        {
+            "text": "Corporation",
+            "target": "Corporation/vx.json",
             "navi": true,
             "navi_expand_level": 1
         },
