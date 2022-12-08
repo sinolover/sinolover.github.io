@@ -1,0 +1,41 @@
+{
+    "created_time": "2022-12-08T08:52:35Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2022-12-08T08:52:36Z",
+            "id": "857",
+            "modified_time": "2022-12-08T08:52:36Z",
+            "name": "中国式管理精要.md",
+            "signature": "61458357528020",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-12-08T08:52:36Z",
+            "id": "858",
+            "modified_time": "2022-12-08T08:52:36Z",
+            "name": "中国式管理行为.md",
+            "signature": "32712141415892",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-12-08T08:52:37Z",
+            "id": "859",
+            "modified_time": "2022-12-08T08:52:37Z",
+            "name": "中国式管理语录100条.md",
+            "signature": "81326876239317",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+    ],
+    "id": "856",
+    "modified_time": "2022-12-08T08:52:35Z",
+    "signature": "40863989343699",
+    "version": 3
+}
