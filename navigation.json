@@ -3,8 +3,9 @@
     [
         {
             "text": "Home",
-            "target": "vx.json",
-            "toc": false
+            "target": "Home/vx.json",
+            "navi": true,
+            "navi_expand_level": 1
         },
         {
             "text": "English",
