@@ -48,6 +48,9 @@
         },
         {
             "name": "SourceControl"
+        },
+        {
+            "name": "Job"
         }
     ],
     "id": "5",
