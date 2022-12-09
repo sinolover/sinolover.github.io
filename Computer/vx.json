@@ -41,46 +41,10 @@
             "name": "RegEx"
         },
         {
-            "name": "SourceControl"
-        },
-        {
             "name": "History"
         },
         {
             "name": "Pattern"
-        },
-        {
-            "name": "API"
-        },
-        {
-            "name": "CPP"
-        },
-        {
-            "name": "CSharp"
-        },
-        {
-            "name": "DataBase"
-        },
-        {
-            "name": "Dicom"
-        },
-        {
-            "name": "HardWare"
-        },
-        {
-            "name": "History"
-        },
-        {
-            "name": "Java"
-        },
-        {
-            "name": "Linux"
-        },
-        {
-            "name": "Pattern"
-        },
-        {
-            "name": "RegEx"
         },
         {
             "name": "SourceControl"
