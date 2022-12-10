@@ -51,6 +51,12 @@
         },
         {
             "name": "Job"
+        },
+        {
+            "name": "Network"
+        },
+        {
+            "name": "ASM"
         }
     ],
     "id": "5",

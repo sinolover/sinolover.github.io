@@ -1,5 +1,10 @@
 # Java英语词汇
-# 
+# 音标表示法
+DJ表示英式音标，KK表示美式音标。
+AHD是The American Heritage Dictionary of the English Language缩写；
+DJ是Daniel Jones（1881 – 1967 英国语音学家）的缩写；
+KK是John S. Kenyon 与Thomas A.Knott（二人同为美国语言学家）的缩写。
+
 
 **algorithm**  扩展词汇 
 - 英 \['ælɡərɪðəm\]  美 \['ælɡərɪðəm\] 
