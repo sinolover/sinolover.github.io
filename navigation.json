@@ -43,6 +43,12 @@
             "navi": true,
             "navi_expand_level": 1
         },
+         {
+            "text": "Personal",
+            "target": "Personal/vx.json",
+            "navi": true,
+            "navi_expand_level": 1
+        },
         {
             "text": "跬步集",
             "target": "跬步集/vx.json",
