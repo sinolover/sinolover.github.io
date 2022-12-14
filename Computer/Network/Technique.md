@@ -10,3 +10,7 @@
 + NS（Name Server）记录是域名服务器记录，用来指定该域名由哪个DNS服务器来进行解析。
 > 如果您在每步申请了顶级域名或独立域名的动态解析服务，需要到您的域名注册商那里，将您的域名的NS记录设为每步的DNS服务器。我们的DNS服务器是：dns1.meibu.com和dns2.meibu.com，IP地址分别是202.104.237.179和61.129.47.188。NS设置后需要一、两天后才能生效，您可以用下面的办法查询是否已经生效。
 泛域名是指一个域名下的所有子域名都被解析到同一个IP地址上。例如：*.meibu.com都解析到meibu.com
+
+Pre-set maximums 中的 RX/TX 值为该网卡的 Buffer size 最大值；
+Current hardware settings 中 RX/TX 值代表该网卡当前的 Buffer size 大小。
+所以，设置的 Current hardware settings 的 RX/TX 值必须在 Pre-set maximums 的限制之内。
