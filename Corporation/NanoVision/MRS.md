@@ -26,6 +26,13 @@
 | nvServer            | SendScanStatus       | 0x8023 | => m_pCommModule->NotifyScanState      |                            |
 
 
+【MRSServer关键版本】
+1.0.14开始支持4网卡，兼容2网卡，指导手册参考：E:\Source\MM\ReleaseNote\MRS-V1.0.14.20220213sp1发布说明.docx
+1.0.15SP2（含）开始，系统需要升级到Ubunt18.04
+
+重建矩阵，256开始每次加256
+         1024开始每次加512
+
 
 
 
