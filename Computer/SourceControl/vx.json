@@ -8,6 +8,12 @@
         },
         {
             "name": "GitHub"
+        },
+        {
+            "name": "SVN"
+        },
+        {
+            "name": "Jenkins"
         }
     ],
     "id": "846",

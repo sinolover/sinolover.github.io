@@ -1,0 +1,24 @@
+{
+    "created_time": "2023-01-03T08:18:57Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2023-01-03T08:24:26Z",
+            "id": "0",
+            "modified_time": "2023-01-03T08:34:08Z",
+            "name": "详解JS的四种异步解决方案：回调函数、Promise、Generator、async_await.md",
+            "signature": "89328402556490",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+        {
+            "name": "进阶 JavaScript 必知的 33 个点"
+        }
+    ],
+    "id": "1114",
+    "modified_time": "2023-01-03T08:18:57Z",
+    "signature": "84135787095293",
+    "version": 3
+}
