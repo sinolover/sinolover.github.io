@@ -6,6 +6,10 @@ DJ是Daniel Jones（1881 – 1967 英国语音学家）的缩写；
 KK是John S. Kenyon 与Thomas A.Knott（二人同为美国语言学家）的缩写。
 
 
+**Symmetric**　扩展词汇　
+- 英 [sɪ'metrɪk] 　 　 美 [sɪ'metrɪk] 　 　
+- adj. 对称的；匀称的
+
 **algorithm**  扩展词汇 
 - 英 \['ælɡərɪðəm\]  美 \['ælɡərɪðəm\] 
 -  n. 算法
@@ -166,162 +170,107 @@ KK是John S. Kenyon 与Thomas A.Knott（二人同为美国语言学家）的缩�
 - 英 \[ˌkɒmbɪ'neɪʃn\]美 \[ˌkɑːmbɪ'neɪʃn\]
 - n. 结合；结合到一起的事物或人；密码
 
-perimeter　扩展词汇
-
-英 \[pə'rɪmɪtə(r)\]美 \[pə'rɪmɪtər\]
-
-n. 周长；周界；边缘
-
-meter　核心词汇
-
-英 \['miːtə(r)\]美 \['miːtər\]
-
-n. 公尺；米
-
-n. 计量器；计时器
-
-vt. (用仪表)测量
-
-delegate　常用词汇
-
-英 \['delɪɡeɪt\]美 \['delɪɡeɪt\]
-
-n. 代表
-
-v. 派 ... 为代表；委派；授权；委托
-
-simultaneously　
-
-英 \[ˌsɪməl'teɪniəsli\]美 \[ˌsaɪməl'teɪnjəsli\]
-
-adv. 同时地
-
-resilience　畅通词汇
-
-英 \[rɪ'zɪliəns\]美 \[rɪ'zɪliəns\]
-
-n. 适应力；弹性
-
-appliance　常用词汇
-
-英 \[ə'plaɪəns\]美 \[ə'plaɪəns\]
-
-n. 器具；应用；装置；器械
-
-scenario　常用词汇
-
-英 \[sə'nɑːriəʊ\]美 \[sə'nærioʊ\]
-
-n. 剧本；情节梗概
-
-blade　常用词汇
-
-英 \[bleɪd\]美 \[bleɪd\]
-
-n. 刀刃；刀锋；桨叶；叶片
-
-cognitive　常用词汇
-
-英 \['kɒɡnətɪv\]美 \['kɑːɡnətɪv\]
-
-adj. 认识的；认知的；有认识力的
-
-dedicate　常用词汇
-
-英 \['dedɪkeɪt\]美 \['dedɪkeɪt\]
-
-vt. 致力于；献出；提献辞
-
-synapse　畅通词汇
-
-英 \['saɪnæps\]美 \['saɪnæps\]
-
-n. \[解\]突触；神经键
-
-v. 形成突触；联合
-
-massively　
-
-英 \['mæsɪvli\]美 \['mæsɪvli\]
-
-adv. 大量地；大规模地
-
-compliance　畅通词汇
-
-英 \[kəm'plaɪəns\]美 \[kəm'plaɪəns\]
-
-n. 顺从；服从；遵守；屈服；柔度；灵活性
-
-seamless　畅通词汇
-
-英 \['siːmləs\]美 \['siːmləs\]
-
-adj. 持续的；无缝的
-
-seam　常用词汇
-
-英 \[siːm\]美 \[siːm\]
-
-n. 缝；接缝
-
-vt. 缝合；接合；使有纹
-
-vi. 有裂缝
-
-presence　核心词汇point-of-presence POP
-
-英 \['prezns\]美 \['prezns\]
-
-n. 出席；存在；到场；【生】存在度
-
-comprise　核心词汇
-
-英 \[kəm'praɪz\]美 \[kəm'praɪz\]
-
-vt. 构成；包含
-
-composite　常用词汇
-
-英 \['kɒmpəzɪt\]美 \[kəm'pɑːzət\]
-
-adj. 合成的；复合的
-
-n. 合成物；复合材料
-
-predictive　
-
-英 \[prɪ'dɪktɪv\]美 \[prɪ'dɪktɪv\]
-
-adj. 预言的；预兆的；预测的
-
-rehydrate　
-
-英 \[riː'haɪdreɪt\]美 \[riː'haɪdreɪt\]
-
-v. 〈化〉使 水化；补充体液
-
-hydrate　畅通词汇
-
-英 \['haɪdreɪt\]美 \['haɪdreɪt\]
-
-n. 水化物
-
-v. （使）水合
-
-consistency　扩展词汇
-
-英 \[kən'sɪstənsɪ\]美 \[kən'sɪstənsɪ\]
-
-n. 连贯；一致性；强度；硬度；浓稠度
-
-retention　常用词汇
-
-英 \[rɪ'tenʃn\]美 \[rɪ'tenʃn\]
-
-n. 保留物；保存；保持(力)；记忆力
-
-Cassandra　
-
+**perimeter**　扩展词汇
+- 英 \[pə'rɪmɪtə(r)\]美 \[pə'rɪmɪtər\]
+- n\. 周长；周界；边缘
+
+**meter**　核心词汇
+- 英 \['miːtə(r)\]美 \['miːtər\]
+- n\. 公尺；米
+- n\. 计量器；计时器
+- vt\. (用仪表)测量
+
+**delegate**　常用词汇
+- 英 \['delɪɡeɪt\]美 \['delɪɡeɪt\]
+- n\. 代表
+- v\. 派 ... 为代表；委派；授权；委托
+
+**simultaneously**
+- 英 \[ˌsɪməl'teɪniəsli\]美 \[ˌsaɪməl'teɪnjəsli\]
+- adv\. 同时地
+
+**resilience**　畅通词汇
+- 英 \[rɪ'zɪliəns\]美 \[rɪ'zɪliəns\]
+- n\. 适应力；弹性
+
+**appliance**　常用词汇
+- 英 \[ə'plaɪəns\]美 \[ə'plaɪəns\]
+- n\. 器具；应用；装置；器械
+
+**scenario**　常用词汇
+- 英 \[sə'nɑːriəʊ\]美 \[sə'nærioʊ\]
+- n\. 剧本；情节梗概
+
+**blade**　常用词汇
+- 英 \[bleɪd\]美 \[bleɪd\]
+- n\. 刀刃；刀锋；桨叶；叶片
+
+**cognitive**　常用词汇
+- 英 \['kɒɡnətɪv\]美 \['kɑːɡnətɪv\]
+- adj\. 认识的；认知的；有认识力的
+
+**dedicate**　常用词汇
+- 英 \['dedɪkeɪt\]美 \['dedɪkeɪt\]
+- vt\. 致力于；献出；提献辞
+
+**synapse**　畅通词汇
+- 英 \['saɪnæps\]美 \['saɪnæps\]
+- n\. \[解\]突触；神经键
+- v\. 形成突触；联合
+
+**massively**　
+- 英 \['mæsɪvli\]美 \['mæsɪvli\]
+- adv\. 大量地；大规模地
+
+**compliance**　畅通词汇
+- 英 \[kəm'plaɪəns\]美 \[kəm'plaɪəns\]
+- n\. 顺从；服从；遵守；屈服；柔度；灵活性
+
+**seamless**　畅通词汇
+- 英 \['siːmləs\]美 \['siːmləs\]
+- adj\. 持续的；无缝的
+
+**seam**　常用词汇
+- 英 \[siːm\]美 \[siːm\]
+- n\. 缝；接缝
+- vt\. 缝合；接合；使有纹
+- vi\. 有裂缝
+
+**presence**　核心词汇 point-of-presence POP
+- 英 \['prezns\]美 \['prezns\]
+- n\. 出席；存在；到场；【生】存在度
+
+**comprise**　核心词汇
+- 英 \[kəm'praɪz\]美 \[kəm'praɪz\]
+- vt\. 构成；包含
+
+**composite**　常用词汇
+- 英 \['kɒmpəzɪt\]美 \[kəm'pɑːzət\]
+- adj\. 合成的；复合的
+- n\. 合成物；复合材料
+
+**predictive**　
+- 英 \[prɪ'dɪktɪv\]美 \[prɪ'dɪktɪv\]
+- adj\. 预言的；预兆的；预测的
+
+**rehydrate**　
+- 英 \[riː'haɪdreɪt\]美 \[riː'haɪdreɪt\]
+- v\. 〈化〉使 水化；补充体液
+
+**hydrate**　畅通词汇
+- 英 \['haɪdreɪt\]美 \['haɪdreɪt\]
+- n\. 水化物
+- v\. （使）水合
+
+**consistency**　扩展词汇
+- 英 \[kən'sɪstənsɪ\]美 \[kən'sɪstənsɪ\]
+- n\. 连贯；一致性；强度；硬度；浓稠度
+
+**retention**　常用词汇
+- 英 \[rɪ'tenʃn\]美 \[rɪ'tenʃn\]
+- n\. 保留物；保存；保持(力)；记忆力
+
+**Cassandra**　
 - 英 \[kə'sændrə\]美 \[kə'sændrə\]
 - n. \[希神\]卡珊多拉(特洛伊女预言家)
 - n. 凶事预言家；不为人所信的预言家
@@ -338,15 +287,11 @@ Cassandra　
 - prep. 关于
 - adj. 恰当的；适宜的
 
-Unix: \[ ju:niks \]发音 (yew-nicks) 尤里克斯
-
-Linux: \[ ‘li:nэks \]里那克斯
-
-Debian: \[ ˈdebiən \]发音 (deb-e-un)
-
-Ubuntu: \[ ùbúntú \]发音 (oo-BOON-too) 乌班图
-
-SuSE: \[ zuzə \]发音 (su-zee)
+**Unix**: \[ ju:niks \]发音 (yew-nicks) 尤里克斯
+**Linux**: \[ ‘li:nэks \]里那克斯
+**Debian**: \[ ˈdebiən \]发音 (deb-e-un)
+**Ubuntu**: \[ ùbúntú \]发音 (oo-BOON-too) 乌班图
+**SuSE**: \[ zuzə \]发音 (su-zee)
 
 **Fedora**　 畅通词汇
 - 英 \[fɪ'dɔːrə\]美 \[fɪ'dɔːrə\]
@@ -426,11 +371,11 @@ Pidgin　 畅通词汇
 - n. 桑巴舞(一种源自非洲的巴西交谊舞)
 - v. 跳桑巴舞
 
-Rhythmbox: \[ ‘riðəmbɔks \]
+**Rhythmbox**: \[ ‘riðəmbɔks \]
 
-WiFi: \[ ‘waifai \]
+**WiFi**: \[ ‘waifai \]
 
-WYSIWYG: \[ ‘wiziwig \]
+**WYSIWYG**: \[ ‘wiziwig \]
 
 # 云安全相关
 
@@ -442,9 +387,10 @@ WYSIWYG: \[ ‘wiziwig \]
 - \[stæʃ\]
 - 存放;贮藏;
 
-kibana \[kɪbana\]
+**kibana** \[kɪbana\]
+Kibana 是一款免费开源的前端应用程序，其基础是 Elastic Stack，可以为 Elasticsearch 中索引的数据提供搜索和数据可视化功能。 尽管人们通常将 Kibana 视作 Elastic Stack（之前称作 ELK Stack，分别表示 Elasticsearch、Logstash 和 Kibana）的制图工具，但也可将 Kibana 作为用户界面来监测和管理 Elastic Stack 集群并确保集群安全性，还可将其作为基于 Elastic Stack 所开发内置解决方案的汇集中心。
 
-xamarin \['zæmərɪn\]它的目标是 用C#开发iOS、Android和Windows Phone原生应用程序。Xamarin是mono项目的一个分支,但这里面最大的区别Xamarin是商业项目.mono做为跨平台的框架已得到越来越多的商业项目的肯定,令外界担心的版权问题\\可靠性\\稳定性也得到证实,使用mono最大的好处是可以使用其它平台众多的项目解决方案,而不必被限制在windows平台下贫乏而又昂贵的各种解决方案.作为一个跨平台开发框架，Xamarin.Mobile有很多优点。在这一框架内，开发iOS、Android、Windows Phone和Mac App应用可以不用转到Eclipse 或者额外购买Mac并使用Xcode，而继续在Visual Studio之中使用C#与.NET Framework进行。
+**xamarin** \['zæmərɪn\]它的目标是 用C#开发iOS、Android和Windows Phone原生应用程序。Xamarin是mono项目的一个分支,但这里面最大的区别Xamarin是商业项目.mono做为跨平台的框架已得到越来越多的商业项目的肯定,令外界担心的版权问题\\可靠性\\稳定性也得到证实,使用mono最大的好处是可以使用其它平台众多的项目解决方案,而不必被限制在windows平台下贫乏而又昂贵的各种解决方案.作为一个跨平台开发框架，Xamarin.Mobile有很多优点。在这一框架内，开发iOS、Android、Windows Phone和Mac App应用可以不用转到Eclipse 或者额外购买Mac并使用Xcode，而继续在Visual Studio之中使用C#与.NET Framework进行。
 
 
 
@@ -713,118 +659,103 @@ xamarin \['zæmərɪn\]它的目标是 用C#开发iOS、Android和Windows Phone�
 - 英 \[ˌsɪml'teɪniəs\]美 \[ˌsaɪml'teɪniəs\]
 - adj. 同时发生的；同步的
 
-coerce　 扩展词汇(python 内置函数)
-
+**coerce**　 扩展词汇(python 内置函数)
 - 英 \[kəʊ'ɜːs\] 美 \[koʊ'ɜːrs\]
 - vt. 强制；威胁
 
 
-Dissolved　
-
+**Dissolved**　
 - 英 \[dɪ'zɒlvd\] 美 \[dɪ'zɒlvd\]
 - adj. 溶化的
 - 动词dissolve的过去式和过去分词.
 
-valve - 必应词典
-
+**valve** - 必应词典
 - 美\[vælv\]英\[vælv\]
 - n.阀；阀门；气门；活门 
 - 网络电子管；瓣膜；汽门 
 - 变形复数：valves；
 
-assert　核心词汇
-
+**assert**　核心词汇
 - 英 \[ə'sɜːt\] 美 \[ə'sɜːrt\]
 - vt.断言；主张，坚持；生效；维护
 
-Neon　扩展词汇
-
+**Neon**　扩展词汇
 - 英 \['niːɒn\] 美 \['niːɑːn\]　 
 - n.氖；霓虹灯
-- Eclipse (2016-v4.6)
+- Eclipse Neon(2016-v4.6)
 
-Mars (2015-v4.5)
+**Throws** 
+- Eclipse Throws(2015-v4.5)
+- \[θrəuz\]
+- Throws: (投掷)表示强制异常处理 
+- Throwable:(可抛出的)表示所有异常类的祖先类
 
-Luna　畅通词汇
-
-- Eclipse (2014-2015-v4.4)
+**Luna**　畅通词汇
+- Eclipse Luna (2014-2015-v4.4)
 - 美\[ˈlunə\]英\[ˈlu:nə\]
 - n.月亮；【罗神】月神；银；【女名】女子名
 - 网络月之骑士；月光；朴善怜
 
-Kepler (2013-2014-v4.3)
-
-Juno　畅通词汇
-
-- (2012-2013-v4.2) 　 　 
+**Juno**　畅通词汇
+- Eclipse Juno(2012-2013-v4.2) 　 　 
 - n.朱诺（人名）
 
-Indigo　扩展词汇
-
+**Indigo**　扩展词汇
 - 英 \['ɪndɪɡəʊ\]　 美 \['ɪndɪɡoʊ\]
 - n.靛青；紫蓝色
-- Eclipse (2011 - v 3.7)
+- Eclipse Indigo (2011 - v 3.7)
 
-Helios　
-
-- 美\[ˈhiliˌɑs\]英\[ˈhi:liɔs\](2010-v3.6)
+**Helios**　
+- 美\[ˈhiliˌɑs\]英\[ˈhi:liɔs\]
+- Eclipse Helios (2010-v3.6)
 - n.太阳神
 
-Galileo　畅通词汇
-
+**Galileo**　畅通词汇
 - 美\[ˌgæləˈleɪoʊ\]英\[ˌɡæliˈleiəu\]
-- Eclipse  (2009-v3.5) 　 　 
+- Eclipse Galileo (2009-v3.5) 　 　 
 - n.伽利略(意大利物理学家及天文学家)
 
-Ganymede　
-
+**Ganymede**　
 - 美\[ˈɡænəˌmid\]英\[ˈɡænimi:d\] 
-- Eclipse (2008 - v 3.4)　 　 
+- Eclipse Ganymede(2008 - v 3.4)　 　 
 - n.\[希神\]Zeus带去为众神司酒的美少年（亦作Ganymedes）
 
-Europa - 必应词典 
-
+**Europa** - 必应词典 
 - 美\[jʊˈropə\]英\[juəˈrəupə\]
 - n.【希神】欧罗巴 
 - 网络木卫二；欧洲特快车；梦回欧罗巴
-- Eclipse (2007 - v3.3)
+- Eclipse Europa(2007 - v3.3)
 
-Jacob - 必应词典
-
+**Jacob** - 必应词典
 - 美\[ˈdʒɛkəb\]英\[ˈdʒeikəb\]
 - n.雅各；【男名】男子名 
 - 网络雅各布；雅各伯；雅克布
 
-repository - 必应词典
-
+**repository** - 必应词典
 - 美\[rɪ'pɑzə.tɔri\]英\[rɪ'pɒzɪt(ə)ri\]
 - n.仓库；贮藏室；存放处；学识渊博的人 
 - 网络资源库；储存库；知识库 
 - 变形复数：repositories；
 
-denominator - 必应词典
-
+**denominator** - 必应词典
 - 美\[dɪ'nɑmɪ.neɪtər\]英\[dɪ'nɒmɪ.neɪtə(r)\]
 - n.分母 
 - 网络命名者；共同特性；标准
 - LCD Lowest Common Denominator 
 
-Facade　扩展词汇
-
+**Facade**　扩展词汇
 - 英 \[fə'sɑːd\] 美 \[fə'sɑːd\]
 - n.建筑物的正面；外表(犹指虚伪的)
 - SLF4J  Simple Logging Facade for Java
 
-crimson - Bing dictionary
-
+**crimson** - Bing dictionary
 - US\['krɪmzn\]UK\['krɪmzn\]
 - n.深红；深红色颜料 
 - adj.深红的；〔比喻〕流血的 
 - v.染成\[变成\]深红色；(脸)变通红 
 - 网络绯红；暗深红色；猩红
 
-poi - Bing dictionary
-
+**poi** - Bing dictionary
 - US\[pɔɪ\]UK\[pɔɪ\]
 - n.(夏威夷的)芋粉酱 
 - 网络兴趣点(Points of Interest)；信息点(Point Of Interest)；芋泥 
@@ -832,26 +763,22 @@ poi - Bing dictionary
 - POI为“Poor Obfuscation Implementation”的首字母缩写，意为“可怜的模糊实现”。
 - Apache POI 是用Java编写的免费开源的跨平台的 Java API，Apache POI提供API给Java程式对Microsoft Office格式档案读和写的功能。
 
-slimmer　
-
+**slimmer**　
 - 英 \['slɪmə(r)\] 美 \['slɪmər\]
 - n. <英>(通过节食、运动等)减轻体重者； 减肥者
 
-slimer　
-
+**slimer**　
 - 英 \['slaɪmə\] 美 \['slaɪmə\]
 - n.细粒摇床(细粉碎机)
 - slimerJS 一个JS网页自动化测试框架
 
-selenium
-
+**selenium**
 - US \[sə'liniəm\] UK \[sə'liːniəm\]
 - n.硒（化学元素，用于制造电气设备和有色玻璃，人体缺此元素可致抑郁等病） 
 - Web硒质；含硒；硒元素
 - 网页自动化测试框架
 
-tableau 
-
+**tableau**
 - US \[tæ'bloʊ\]UK \['tæbləʊ\]
 - n.舞台造型；静态画面；群像（尤指雕塑）
 - Web场面；生动的场面；表格
@@ -860,66 +787,57 @@ tableau
 - n.display,picture,montage,scene,representation
 - 表格框架，类似与easyui
 
-squid　扩展词汇
+**squid**　扩展词汇
 
 - 英 \[skwɪd\] 美 \[skwɪd\]
 - n.鱿鱼
 
-Nginx——\[ˌndʒinˈeks \]
+**Nginx**
+- \[ˌndʒinˈeks \]
 
-Nagio　
-
+**Nagio**　
 - Nagios\[ˈnædʒiɔs\]　 网络监控主机；主机状态图；监控方案
 - Nagio 薙尾(姓,日本)
 
-meso　
-
+**meso**　
 - 英 \['mesəʊ\] 美 \['mesoʊ\]
 - pref.表示"中间；中等"之义
 - mesos 类似与yarn的资源调度平台
 
-Django　
-
+**Django**
 - /ˈdʒæŋɡoʊ/ （音译为瞻勾），注意D不发音哟！
 - 一种WEB编程的框架, 基于Python语言
 
-hue　常用词汇
-
+**hue**　常用词汇
 - 英 \[hjuː\] 美 \[hjuː\]
 - n.色调；色彩；样子；意味；信仰；喊叫
 
-incubator　畅通词汇
-
+**incubator**　畅通词汇
 - 英 \['ɪŋkjubeɪtə(r)\] 美 \['ɪŋkjubeɪtər\]
 - n.孵卵器；早产儿保育器
 
-impersonate　畅通词汇
-
+**impersonate**　畅通词汇
 - 英 \[ɪm'pɜːsəneɪt\] 美 \[ɪm'pɜːrsəneɪt\]
 - v.模仿；扮演；假冒 (steven: 伪装)
 
-azkaban　
-
+**azkaban**
 - 英 \[eɪzkə'bæn\] 美 \[eɪzkə'bæn\]
 - n.阿兹卡班（小说哈利玻特中的监狱）
 
-hose　核心词汇
-
+**hose**　核心词汇
 - 英 \[həʊz\] 美 \[hoʊz\]
 - n.水管；橡皮软管；(复数)长统袜；男士紧身裤
 - vt.用水管冲洗；<美俚>痛打
 
-quorum　畅通词汇
-
+**quorum**　畅通词汇
 - 英 \['kwɔːrəm\] 美 \['kwɔːrəm\]
 - n.法定人数；\[计\]仲裁
 
-incubator 畅通词汇
-
+**incubator** 畅通词汇
 - 英 \['ɪŋkjubeɪtə(r)\]美 \['ɪŋkjubeɪtər\]
 - n. 孵卵器；早产儿保育器
 
-Flume OG & Flume NG
+**Flume OG & Flume NG**
 
 Flume OG 也就是 Flume original generation 由 Cloudera公司开发，最新版本是0.9.4。而Flume NG 就是 Flume next generation， 大概在2011年6月份由 Cloudera贡献给开源社区，目前属于Apache的一个incubator project。 
 
@@ -930,186 +848,145 @@ Flume NG的Jira上的第一个Trace：FLUME-728
 Apache 之所以要将 Flume 更命名 Flume NG，是因为Flume NG 对 Flume 进行了大规模的重构。重构的原因如下：
 
 1\. 代码过于复杂：Flume 在 Cloudera已经开发了多年，工程显得有些臃肿；
-
 2\. Flume NG要将其一些核心组件要进行标准化；
-
 3\. sink / source 配置不完善；
-
 4\. 改进heartbeat和master架构；
-
 5\. 最后一点也很重要：rename packages to org.apache.flume；
-
-待续...
-
 参考：
-
 [https://cwiki.apache.org/FLUME/flume-ng.html](https://cwiki.apache.org/FLUME/flume-ng.html)
-
 [http://www.cloudera.com/blog/2011/12/apache-flume-architecture-of-flume-ng-2](http://www.cloudera.com/blog/2011/12/apache-flume-architecture-of-flume-ng-2)/
-
 [https://github.com/apache/flume](https://github.com/apache/flume)
-
 [http://incubator.apache.org/projects/flume.html](http://incubator.apache.org/projects/flume.html)
 
-throttle　扩展词汇
-
+**throttle**　扩展词汇
 - 英 \['θrɒtl\] 美 \['θrɑːtl\]
 - n.节流阀；油门；喉咙 
 - v.扼喉咙；使窒息
 
-stash　畅通词汇logstash 一个日志管理工具,收集分析日志 类似于syslog
-
+**stash**　畅通词汇logstash 一个日志管理工具,收集分析日志 类似于syslog
 - 英 \[stæʃ\] 美 \[stæʃ\]
 - vt.隐藏；储藏 
 - n.隐藏地点；隐藏物
 
-pseud　 
-
+**pseud**
 - 英 \[suːd\] 美 \[suːd\]
 - abbr. 假名(=pseudonym) 
 - n. <英>假知识分子 
 - pref. 表示“假的”
 
-storm　核心词汇
-
+**storm**　核心词汇
 - 英 \[stɔːm\] 美 \[stɔːrm\]
 - n.暴风雨
 - v.起风暴；猛攻；暴怒；捣毁
 
-spark　核心词汇
-
+**spark**　核心词汇
 - 英 \[spɑːk\] 美 \[spɑːrk\]
 - vi.闪烁；冒火花；热情回应 
 - vt.激发；引起；向...求爱 
 - n.火星；朝气；情人；俗丽的年轻人
 
-kylin　
-
+**kylin**　
 - 英 \['kiːlɪn\]　 美 \['kɪlɪn\]
 - n.麒麟(中国古代传说中的吉祥物；雄的称麒；雌的称麟)
 
-presto　畅通词汇
-
+**presto**　畅通词汇
 - 英 \['prestəʊ\] 美 \['prestoʊ\]
 - adv.(音乐演奏)急速地
 - adj.(音乐)急速的 
 - n.(音乐)快拍；急速
 
-drill　核心词汇
-
+**drill**　核心词汇
 - 英 \[drɪl\] 美 \[drɪl\]
 - n.钻孔机；钻子；反复操练；播种机 
 - v.练习；钻孔；(军事)训练
 
-impala　
-
+**impala**　
 - 英 \[ɪm'pɑːlə\] 美 \[ɪm'pɑːlə\]
 - n.黑斑羚
 
-Derby　扩展词汇
-
+**Derby**　扩展词汇
 - 英 \['dɑːbi\] 美 \['dɜːrbi\]
 - n.德比（英国中部的都市）；德比马赛
 
-flume　畅通词汇
-
+**flume**　畅通词汇
 - 英 \[fluːm\]美 \[fluːm\]
 - n.溪谷；笕槽；水道
 
-oozie　
-
+**oozie**　
 - 英 \['uːzɪ\] 美 \['uːzɪ\]
 - n.(缅甸的)驯象人；驭象者
 
-mahout
-
+**mahout**
 - 美 \[mə'haʊt\] 英 \[mə'haʊt\]
 - n.象夫；骑象人；驯象人 
 - 网络驯象的人；驭象的人；驯象师 
 - 复数：mahouts   
 
-crunch 扩展词汇 
-
+**crunch** 扩展词汇 
 - 英 \[krʌntʃ\]美 \[krʌntʃ\] 
 - 释义用例词组更
 - v.发出碎裂声；嘎吱嘎吱地咀嚼；嘎喳嘎喳地碾过
 - n.嘎吱声；艰难局面；关键时刻
 
-syllabus　扩展词汇
-
+**syllabus**　扩展词汇
 - 英 \['sɪləbəs\] 美 \['sɪləbəs\]
 - n.大纲；摘要
 
-uber　
-
+**uber**　
 - 英 \['juːbə\]美 \['juːbə\]
 - 超级的, 极好的
 
-OOP
-
+**OOP**
 - \['ɔbdʒekt\]\['ɔ:rientid\]导向的
 - OO: object-oriented ,面向对象
 - OOP: object-oriented programming,面向对象编程
 
- delimited　
-
+ **delimited**　
 - 英 \[dɪ'lɪmɪtɪd\]　美 \[dɪ'lɪmɪtɪd\]
 - adj.有界限的；界限划定；或确定的 
 - 动词delimit的过去式和过去分词.
 
 
-portfolio　常用词汇
-
+**portfolio**　常用词汇
 - 英 \[pɔːt'fəʊliəʊ\] 美 \[pɔːrt'foʊlioʊ\]
 - n.文件夹；公事包；作品集；投资组合；（大臣或）部长职务
 
-folio　畅通词汇
-
+**folio**　畅通词汇
 - 英 \['fəʊliəʊ\] 美 \['foʊlioʊ\]
 - n.对开本；页码；张数；一页 
 - v.编页码
 
-transient
-
+**transient**
 - 英 \['trænziənt\]美 \['trænʃnt\]
 - adj.短暂的 
 - n.短期居留者；<电>顺变电流
 
- JPA Java Persistence API
-
-beeline　
-
+**beeline**　
 - 英 \['biːlaɪn\] 美 \['biːlaɪn\]
 - n.直线；捷径 
 - v.走直线
 
-slang　常用词汇
-
+**slang**　常用词汇
 - 英 \[slæŋ\] 美 \[slæŋ\]
 - n.俚语；行话 
 - vt.使用俚语；辱骂 
 - vi.辱骂
 
-deprecate
-
+**deprecate**
 - 英 \['deprəkeɪt\] 美 \['deprəkeɪt\] 
 - v.声明不赞成；抨击；反对
 
- Persistence
-
+ **Persistence**
 - 英 \[pə'sɪstəns\] 美 \[pər'sɪstəns\]
 - n.坚持；毅力
+- JPA : Java Persistence API
 
- JPA : Java Persistence API
-
-Criteria
-
+**Criteria**
 - 英 \[kraɪ'tɪəriə\]       美 \[kraɪ'tɪəriə\]
 - n.标准；尺度；准则
 - 名词criterion的复数形式
 
-immutable
-
+**immutable**
 - 英 \[ɪ'mjuːtəbl\]美 \[ɪ'mjuːtəbl\]
 - adj.不可变的；不变的 
 - String是final immutable的
@@ -1146,8 +1023,8 @@ ClassNotFoundException:类没有发现异常
 
 NumberFormatException:数字格式异常(字符串不能转化为数字)  
 
-\[θrəuz\]
-
+**Throws** 
+- \[θrəuz\]
 - Throws: (投掷)表示强制异常处理 
 - Throwable:(可抛出的)表示所有异常类的祖先类
 
