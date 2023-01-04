@@ -76,16 +76,101 @@ Tag对应的数据元素字段，这里不再一一列述，可参见下面的�
 ![隐式传输语法格式](vx_images/396512917247524.png)
 显式传输语法的格式根据VR类型分为以下两种：  
 ①VR为OB、OW、OF、UT、UN、SQ  
-![显式VR为OB、OW、OF、UT、UN、SQ](vx_images/394422917242485.png)
-②VR为其它类型  
+![显式VR为OB、OW、OF、UT、UN、SQ](vx_images/493764809254497.png)
+②VR为标准类型  
 ![显式VR为其它类型](vx_images/392322917230395.png)
+<font color=red>**总结：**
+**1. 隐式VL都是4字节；**
+**2. 显式_标准 VR：2字节；VL：2字节；**
+**3. 显式_其他 VR：2字节；保留2字节；VL4字节**
+**3. VR跟VL是等长的：要么4字节（显式_其他：加上保留VR是4字节，VL也是4字节），要么2字节（显式_标准 VR：2字节；VL：2字节）**
+</font> 
+
+<font color=red>显式_标准</font>：
+GE：02 00 00 00：4字节 (0002,0000)
+VR：55 4C          :  2字节
+VL：04 00          ：2字节
+VF：C4 00 00 00
+<font color=red>显式_其他</font>：
+GE：02 00 00 00：4字节 (0002,0001)
+VR：4F 42          :  2字节
+RV：00 00          :  2字节
+VL：02 00 00 00：4字节
+VF：00 01
+![](vx_images/35404710249176.png)
+
 VR就是数据类型，学过编程语言都会接触到很多的数据类型，而这里的VR跟我们所学的数据类型差不多，不过会有几个比较特殊的，例如OB和SQ，这两种数据类型，会在后面的文章进行专门的讲解。
 
 而VR具体有哪些呢，可以参考其他的文章，这里就不再一一罗列。  
-[医学图像之DICOM格式解析：https://www.cnblogs.com/XDU-Lakers/p/9863114.html](https://www.cnblogs.com/XDU-Lakers/p/9863114.html "医学图像之DICOM格式解析：https://www.cnblogs.com/XDU-Lakers/p/9863114.html")
+[医学图像之DICOM格式解析](https://www.cnblogs.com/XDU-Lakers/p/9863114.html)
 
 最后这里给出DICOM文件的一个大概的格式：
 
 ![DICOM文件格式](vx_images/389982917230256.png)
 
 ​
+Note: This section makes numerous references to VRs such as OB, OW, SQ, etc. For a listing of default information about these Values Representations, refer to the [Default Value Representation Table](#table).
+
+## Data Element Structure with Explicit VR
+
+When using the Explicit VR structures, the Data Element shall be constructed of four consecutive fields: Data Element Tag, VR, Value Length, and Value. Depending on the VR of the Data Element, the Data Element will be structured as follows:
+
+*   For VRs of OB, OW, SQ and UN, the 16 bits following the two character VR Field are reserved for use by later versions of the DICOM Standard. These reserved bytes shall be set to 0000H and shall not be used or decoded. The Value Length Field is a 32-bit unsigned integer. If the Value Field has an Explicit Length, then the Value Length Field shall contain a value equal to the length (in bytes) of the Value Field. Otherwise, the Value Field has an Undefined Length and a Sequence Delimitation Item marks the end of the Value Field.
+*   For VRs of UT the 16 bits following the two character VR Field are reserved for use by later versions of the DICOM Standard. These reserved bytes shall be set to 0000H and shall not be used or decoded. The Value Length Field is a 32-bit unsigned integer. The Value Field is required to have an Explicit Length, that is the Value Length Field shall contain a value equal to the length (in bytes) of the Value Field.  
+      
+    Note: VRs of UT may not have an Undefined Length, i.e. a Value Length of FFFFFFFFH.
+
+*   For all other VRs the Value Length Field is the 16-bit unsigned integer following the two character VR Field. The value of the Value Length Field shall equal the length of the Value Field.
+
+An example of a Data Element with an Explicit VR, such as would be the case for data type OB, OW, SQ, or UN is shown below:
+
+![data element](vx_images/228885310256881.gif)
+
+An example of a Data Element with an Explicit VR, such as would be the case for data types other than OB, OW, SQ, or UN is shown below:
+
+![data element](vx_images/215285310235933.gif)
+
+## Data Element Structure with Implicit VR
+
+When using the Implicit VR structure the Data Element shall be constructed of three consecutive fields: Data Element Tag, Value Length, and Value. If the Value Field has an Explicit Length then the Value Length Field shall contain a value equal to the length (in bytes) of the Value Field. Otherwise, the Value Field has an Undefined Length and a Sequence Delimitation Item marks the end of the Value Field.
+
+An example of a Data Element with an Implicit VR is shown below:
+
+![data element](vx_images/204225310236374.gif)
+
+# <div id="table">Default Value Representation Table</div>
+
+The table below contains the default values for the Value Representations supported by DICOM.
+
+For more information on the structure of this table, refer to [DicomVR](https://www.leadtools.com/help/sdk/v22/dh/di/dicomvr.html).
+
+|  <br>  |         <br>          |    <br>    |       <br>       |   <br>    |
+| ------ | --------------------- | ---------- | ---------------- | --------- |
+| Code   | Name                  | Length     | Restriction      | Unit Size |
+| AE     | Application Entity    | 16         | StringMaximum    | 1         |
+| AS     | Age String            | 4          | TextFixed        | 1         |
+| AT     | Attribute Tag         | 4          | BinaryFixed      | 4         |
+| CS     | Code String           | 16         | StringMaximum    | 1         |
+| DA     | Date                  | 8          | TextFixed        | 1         |
+| DS     | Decimal String        | 16         | StringMaximum    | 1         |
+| DT     | Date Time             | 26         | TextMaximum      | 1         |
+| FD     | Floating Point Double | 8          | BinaryFixed      | 8         |
+| FL     | Floating Point Single | 4          | BinaryFixed      | 4         |
+| IS     | Integer String        | 12         | StringMaximum    | 1         |
+| LO     | Long String           | 64         | StringMaximum    | 1         |
+| LT     | Long Text             | 10240      | TextMaximum      | 1         |
+| **OB** | Other Byte String     | 0          | BinaryAny        | 1         |
+| **OF** | Other Float String    | 0xFFFFFFFC | BinaryMaximum    | 4         |
+| **OW** | Other Word String     | 0          | BinaryAny        | 2         |
+| PN     | Person Name           | 64         | TextMaximumGroup | 1         |
+| SH     | Short String          | 16         | StringMaximum    | 1         |
+| SL     | Signed Long           | 4          | BinaryFixed      | 4         |
+| **SQ** | Sequence of Items     | 0          | NotApplicable    | 1         |
+| SS     | Signed Short          | 2          | BinaryFixed      | 2         |
+| ST     | Short Text            | 1024       | TextMaximum      | 1         |
+| TM     | Time                  | 16         | TextMaximum      | 1         |
+| UI     | Unique Identifier     | 64         | TextMaximum      | 1         |
+| UL     | Unsigned Long         | 4          | BinaryFixed      | 4         |
+| **UN** | Unknown               | 0          | BinaryAny        | 1         |
+| US     | Unsigned Short        | 2          | BinaryFixed      | 2         |
+| **UT** | Unlimited Text        | 0xFFFFFFFE | TextMaximum      | 1         |
