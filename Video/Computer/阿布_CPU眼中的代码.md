@@ -1,8 +1,8 @@
 ## CPU眼里的：引用；无聊的文字游戏
-<video src="./Video/Computer/vx_attachments/abu/1.CPU眼里的：线程互斥  同步  Mutex  Semaphore.mp4" width="800px" height="600px" controls="controls" type="video/mp4"></video>
+<video src="./Video/Computer/vx_attachments/abu/1.CPU眼里的：线程互斥  同步  Mutex  Semaphore.mp4" width="640px" height="480px" controls="controls" type="video/mp4"></video>
 
 ## CPU眼里的：this指针
-<video id="video" controls="" preload="none" poster="封面">
+<video id="video" controls="" preload="none" poster="封面" width="640px" height="480px" >
       <source id="mp4" src="vx_attachments/abu/2.03-5_第三讲_this指针的使用（一）.mp4" type="video/mp4">
 </video>
 
