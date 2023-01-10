@@ -38,6 +38,12 @@
             "navi_expand_level": 1
         },
         {
+            "text": "Video",
+            "target": "Video/vx.json",
+            "navi": true,
+            "navi_expand_level": 1
+        },
+        {
             "text": "Corporation",
             "target": "Corporation/vx.json",
             "navi": true,
