@@ -17,6 +17,18 @@ KK是John S. Kenyon 与Thomas A.Knott（二人同为美国语言学家）的缩�
 - 英 \['ælɡərɪðəm\]  美 \['ælɡərɪðəm\] 
 -  n. 算法
 
+
+**porcelain**　常用词汇　
+- 英 ['pɔːsəlɪn] 　 　 美 ['pɔːrsəlɪn] 　 　
+- n. 瓷器；瓷
+
+**plumb**　常用词汇　
+- 英 [plʌm] 　 　 美 [plʌm] 　 　
+- v. （用铅垂）测量；探测
+- n. 铅锤；垂直
+- adj. 垂直的；<口>完全的
+- adv. 恰恰；<口>彻底地
+
 # QT VTK DICOM
 
 **props**
