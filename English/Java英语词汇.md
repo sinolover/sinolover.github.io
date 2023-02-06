@@ -5,6 +5,9 @@ AHD是The American Heritage Dictionary of the English Language缩写；
 DJ是Daniel Jones（1881 – 1967 英国语音学家）的缩写；
 KK是John S. Kenyon 与Thomas A.Knott（二人同为美国语言学家）的缩写。
 
+**proton**　扩展词汇　
+* 英 ['prəʊtɒn] 　 　 美 ['proʊtɑːn] 　 　
+* n. 质子
 
 **Symmetric**　扩展词汇　
 - 英 [sɪ'metrɪk] 　 　 美 [sɪ'metrɪk] 　 　

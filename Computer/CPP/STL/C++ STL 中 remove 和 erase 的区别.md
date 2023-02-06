@@ -19,7 +19,7 @@ list容器中的remove 成员函数，原型是void remove (const value_type& va
 
 (1) void erase (iterator position);
 
-(2) size\_type erase (const value\_type& val);
+(2) size_type erase (const value_type& val);
 
 (3) void erase (iterator first, iterator last);
 
@@ -54,7 +54,7 @@ C++的STL通过iterator将container和algorithm分离，并通过functor提供�
 3. 部分容器提供remove类成员函数，那么代表的是真正物理意义上的删除元素
 4. 如果该容器是vector、string或者deque，使用erase-remove idiom或者erase-remove_if idiom
 5. 如果该容器是list，使用list::remove或者list:remove_if成员函数
-6. 如果该容器是一个associative container，使用asso\_con::erase成员函数或者remove\_copy_if结合swap等方式
+6. 如果该容器是一个associative container，使用asso_con::erase成员函数或者remove_copy_if结合swap等方式
 7. 有一些比较特殊的容器具现，比如vector等，暂不考虑。
 
 更多信息，可以参考《Effective STL》
@@ -62,7 +62,7 @@ C++的STL通过iterator将container和algorithm分离，并通过functor提供�
 综上一些信息，可以发现，STL提供给我们的“删除”语义并非真正统一，至少未达到最高层次的统一。有时候从一种容器换为另外一种容器，修修改改总少不了。
 
 下面，提供一个统一的接口，来删除一个容器中的元素，原理较简单，使用编译器通过type deduce获知容器的类型，然后通过type traits在编译器就可以决定函数派送决定。比如，编译器知道当前容器是list，那么就会调用list:remove相关的成员函数，性能？inline当然少不了！代码来源是一个STL的教学视频上得之，做了些自以为是的简单修改，当然，我的修改可能让代码“恶”了，自己简单用了些容器做测试，程序行为正确，用了trace工具跟踪代码，足迹符合预期，当然，重在思想的运用，真正的代码使用还需要经过多次严格测试。
-~~~ cpp
+~~~cpp
 
 //
 //Source code originally from MSDN Channel 9 Video
@@ -264,4 +264,110 @@ detail::erase_if_helper(c, p, typename detail::container_traits::container_categ
 
 ~~~
 
-当然，既然选择了C++，就代表选择了折腾（这不也是种乐趣么！），如果容器内是raw pointer呢，你如果想删除，那还得手动去释放资源，万一又有异常发生，呃……好吧，使用auto\_ptrs，可以么？（COAP！当然，也可以冒险使用之，注意auto\_ptrs的行为特性）。嗯，使用shared_ptrs，较安全，c++ox或者boost。有时候，不得不用指针，因为我想虚多态动绑定。
+当然，既然选择了C++，就代表选择了折腾（这不也是种乐趣么！），如果容器内是raw pointer呢，你如果想删除，那还得手动去释放资源，万一又有异常发生，呃……好吧，使用auto_ptrs，可以么？（COAP！当然，也可以冒险使用之，注意auto_ptrs的行为特性）。嗯，使用shared_ptrs，较安全，c++ox或者boost。有时候，不得不用指针，因为我想虚多态动绑定。
+# remove erase 区别_优秀
+remove:用来“删除”从begin到end之间值为x的元素。例子中是“删除”从begin到end之间值为10的元素。确切的说remove翻译为移动比较好，因为这个函数不会改变vector中的元素，也不会破坏“删除”的元素，而是把所有没有“删除”的元素挪到了vector的前端。这个函数返回一个迭代器，指向vector中最后一个没有删除的元素后面的位置。
+
+remove_if:“删除”那些满足条件的元素，需要有一个一元谓词函数。
+
+remove_copy:例子中就是先去做移除10这个元素的操作，然后复制copy到c.begin()的位置。
+
+remove_copy_if:“删除”那些满足条件的元素，再做拷贝。例子中是先移除所有大于9的元素，然后拷贝到c2.begin（）的位置。
+
+源代码如下：
+
+```cpp
+// Fig22_28_STL_Alg_remove_remove_if_remove_copy_remove_copy_if.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+///Standard Library functions remove ,remove_if,remove_copy,remove_copy_if
+
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <iterator>
+using namespace std;
+bool greater9(int);//prototype
+
+int main()
+{
+    //std::cout << "Hello World!n";
+    const int SIZE = 10;
+    int a[SIZE] = { 10,2,10,4,16,6,14,8,12,10 };
+    ostream_iterator<int> output(cout," ");
+    vector<int> v(a,a+SIZE);//copy of a
+    vector<int>::iterator newLastElement;
+
+    cout << "Vector v before removing all 10s:n";
+    copy(v.begin(), v.end(),output);
+
+    //remove all 10s from v
+    newLastElement = remove(v.begin(),v.end(),10);
+    cout << "n Vector v after removing all 10s:n";
+    copy(v.begin(), newLastElement, output);
+    cout << "n";
+    copy(v.begin(),v.end(), output);//后面的元素就不一定是什么了
+
+
+    vector<int> v2(a,a+SIZE);//copy of a
+    vector<int> c(SIZE,0);//实例化 vector c
+    cout << "nVector v2 before removing all 10s and copying:n";
+    copy(v2.begin(), v2.end(), output);
+
+    //copy from v2 to c,removing 10s in the process
+    remove_copy(v2.begin(), v2.end(),c.begin(),10);//先是把begin----end之间的10给remove了，然后复制到c中
+    cout << "nVector c after removing all 10 s from v2:n";
+    copy(c.begin(), c.end(), output);
+
+    vector<int> v3(a, a + SIZE);//copy of a
+    cout << "nVector v3 before removing all elements greater than 9:n";
+    copy(v3.begin(), v3.end(), output);
+
+    //removing elements greater than 9 from v3
+    newLastElement = remove_if(v3.begin(),v3.end(),greater9);
+    cout << "nVector v3 after removing all elements greater than 9:n";
+    copy(v3.begin(), newLastElement, output);
+    cout << "n";
+    copy(v3.begin(), v3.end(), output);
+
+    ///
+    vector<int> v4(a, a + SIZE);//copy of a
+    vector<int> c2(SIZE, 0);//实例化 vector c2
+    cout << "nVector v4 before removing all elements greater than 9 and copying:n";
+    copy(v4.begin(), v4.end(), output);
+
+    //copy elements from v4 to c2,removing elements greater than 9 in the process
+    remove_copy_if(v4.begin(),v4.end(),c2.begin(),greater9);
+    cout << "nVector c2 after removing all elements greater than 9 and copying:n";
+    copy(c2.begin(), c2.end(), output);
+    cout << endl;
+
+}
+//determine weather argument is greater than 9
+bool greater9(int x)
+{
+    return x > 9;
+}
+
+```
+
+运行结果：
+
+```cpp
+Vector v before removing all 10s:
+10 2 10 4 16 6 14 8 12 10
+ Vector v after removing all 10s:
+2 4 16 6 14 8 12
+2 4 16 6 14 8 12 8 12 10
+Vector v2 before removing all 10s and copying:
+10 2 10 4 16 6 14 8 12 10
+Vector c after removing all 10 s from v2:
+2 4 16 6 14 8 12 0 0 0
+Vector v3 before removing all elements greater than 9:
+10 2 10 4 16 6 14 8 12 10
+Vector v3 after removing all elements greater than 9:
+2 4 6 8
+2 4 6 8 16 6 14 8 12 10
+Vector v4 before removing all elements greater than 9 and copying:
+10 2 10 4 16 6 14 8 12 10
+Vector c2 after removing all elements greater than 9 and copying:
+2 4 6 8 0 0 0 0 0 0
+```

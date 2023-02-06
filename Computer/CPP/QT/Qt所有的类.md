@@ -379,3 +379,6 @@
 | QXtApplication            | 促进XT/MyTf和QT小部件的混合                                                                             | Facilitates the mixing of Xt/Motif and Qt widgets                                                                                                          |
 | QXtWidget                 | 允许XT/MyTf和QT小部件的混合                                                                             | Allows mixing of Xt/Motif and Qt widgets                                                                                                                   |
 | Qt                        | 需要全局性的杂项标识符的命名空间                                                                          | Namespace for miscellaneous identifiers that need to be global-like                                                                                        |
+
+
+![](vx_images/487414119252392.png)
