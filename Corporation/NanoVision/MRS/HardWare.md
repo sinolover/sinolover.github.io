@@ -17,9 +17,9 @@ Gantry（机架）、球管、射线源、高压柜、电源柜
 ## CTBox
 WorkMode 的状态
 ![](vx_images/515421213241589.png)
-ChildNodes Online Status：在线状态，哪些在线；
+ChildNodes Online Status：硬件在线状态，哪些在线（哪些设备当前有效）；
 ChildNodes Exposure  En：判断ready使能位，需要判哪些节点ready；(由MRSServer m_pControl->SetExposureMode下发)
-ChildNodes Ready Status：后面那个是实际有哪些节点ready了。
+ChildNodes Ready Status：是实际有哪些节点ready了。
 
 ifbox tubeInff mtCtrl 都有status寄存器，每个位的信息也都一样，区别如下：
 ifbox 收到prep 后就会突发ready  。
@@ -39,20 +39,20 @@ Msg err status tube 19:11
 78.86.65.16： ctBox可 ping
 
 78.86.65.17： ifbox可 ping
-78.86.65.19： pdu板卡 不可 ping
+78.86.65.19： pdu板卡 可 ping
 
 78.86.65.41-46 tubeIntf可ping
 
 78.86.65.21 mtCtrl 可ping
 
-26  
+78.86.65.26  
 
-imgTrans
+imgTrans 不可 ping
 Vlan10  78.86.66.64_71 
 Vlan20  78.86.67.72_79
                79是最后一块传输板
 
-数据倒着传，第一块板子，需要跳线，最后传数据
+因为数据倒着传，所以第一块板子，需要跳线，并且是最后传的一块数据
 
 # 探测器(与付工邮件沟通)
 ## 物理尺寸(实际尺寸)
