@@ -1,0 +1,477 @@
+BODY {
+	BACKGROUND-COLOR: #f3f3f3
+}
+#header {
+	BACKGROUND: #f3f3f3; HEIGHT: 340px
+}
+#header DIV.lc {
+	BACKGROUND: url(http://imgsrc.baidu.com/css/pic/item/e84ba9386db08ec9d4622536.jpg) no-repeat
+}
+#header DIV.rc {
+	BACKGROUND: url(http://imgsrc.baidu.com/css/pic/item/e84ba9386db08ec9d4622536.jpg) no-repeat right top
+}
+#header DIV.tit {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; LEFT: 12px; LINE-HEIGHT: 24px; FONT-FAMILY: свт╟; TOP: 22px
+}
+#header DIV.tit A.titlink {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+#header DIV.tit A.titlink:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+#header DIV.desc {
+	FONT-SIZE: 13px; LEFT: 20px; COLOR: #ffffff; TOP: 33px
+}
+#tabline {
+	TOP: 347px; BACKGROUND-COLOR: #f3f3f3
+}
+#tab {
+	TOP: 300px
+}
+#tab A.on {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; MARGIN-TOP: -3px; FONT-SIZE: 14px; BORDER-LEFT: #666666 1px solid; COLOR: #f26521; LINE-HEIGHT: 19px; BACKGROUND-COLOR: #f3f3f3
+}
+#tab A.on:link {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; MARGIN-TOP: -3px; FONT-SIZE: 14px; BORDER-LEFT: #666666 1px solid; COLOR: #f26521; LINE-HEIGHT: 19px; BACKGROUND-COLOR: #f3f3f3
+}
+#tab A.on:visited {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; MARGIN-TOP: -3px; FONT-SIZE: 14px; BORDER-LEFT: #666666 1px solid; COLOR: #f26521; LINE-HEIGHT: 19px; BACKGROUND-COLOR: #f3f3f3
+}
+#tab SPAN {
+	FONT-SIZE: 14px; COLOR: #000000
+}
+#tab A:link {
+	FONT-SIZE: 14px; COLOR: #000000; TEXT-DECORATION: none
+}
+#tab A:visited {
+	FONT-SIZE: 14px; COLOR: #000000; TEXT-DECORATION: none
+}
+#tab2 {
+	BACKGROUND: #dae9f5
+}
+#tab2 SPAN {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000
+}
+#tab2 A {
+	FONT-SIZE: 12px
+}
+#tab2 A:link {
+	COLOR: #0000cc
+}
+#tab2 A:visited {
+	COLOR: #0000cc
+}
+.stage {
+	BACKGROUND: #f3f3f3
+}
+#comm_info {
+	COLOR: #333333; FONT-FAMILY: Arial; TEXT-ALIGN: left
+}
+#comm_info DIV.line {
+	BORDER-TOP: #d2e9f4 1px solid; MARGIN-TOP: 5px; LINE-HEIGHT: 8px
+}
+#comm_info A {
+	COLOR: #3399cc
+}
+#page {
+	FONT-SIZE: 14px; FONT-FAMILY: Arial; HEIGHT: 30px; TEXT-ALIGN: center
+}
+#page SPAN {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-BOTTOM: 3px; COLOR: #000000; PADDING-TOP: 3px
+}
+#page A.pc {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #3399cc
+}
+#page A.pc:visited {
+	COLOR: #3399cc
+}
+#page A.pi {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 14px; PADDING-BOTTOM: 3px; COLOR: #3399cc; PADDING-TOP: 3px
+}
+#page A.pi:visited {
+	COLOR: #3399cc
+}
+.mod {
+	MARGIN-BOTTOM: 10px
+}
+.modhandle {
+	CURSOR: move
+}
+.modth {
+	HEIGHT: 24px
+}
+.modhead {
+	
+}
+.modopt {
+	
+}
+.modtit {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #666666
+}
+A.modtit {
+	COLOR: #666666
+}
+A.modtit:visited {
+	COLOR: #666666
+}
+.modtitlink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #666666
+}
+A.modtitlink {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.modtitlink:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.modtitlink:hover {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+.modact {
+	FONT-SIZE: 12px; COLOR: #666666
+}
+A.modact:link {
+	COLOR: #666666
+}
+A.modact:visited {
+	COLOR: #666666
+}
+.modbox {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 10px; BACKGROUND-COLOR: #e9e9e9
+}
+.modtl {
+	BACKGROUND: url(http://imgsrc.baidu.com/css/pic/item/e9b8b3cc97394c1b00e92836.jpg) no-repeat left top; LINE-HEIGHT: 1px
+}
+.modtc {
+	BACKGROUND: url(http://imgsrc.baidu.com/css/pic/item/e9b8b3cc97394c1b00e92836.jpg) repeat-x
+}
+.modtr {
+	BACKGROUND: url(http://imgsrc.baidu.com/css/pic/item/e9b8b3cc97394c1b00e92836.jpg) no-repeat right top; LINE-HEIGHT: 1px
+}
+.modbl {
+	LINE-HEIGHT: 1px; BACKGROUND-COLOR: #e5e5e4
+}
+.modbc {
+	LINE-HEIGHT: 1px; BACKGROUND-COLOR: #e5e5e4
+}
+.modbr {
+	LINE-HEIGHT: 1px; BACKGROUND-COLOR: #e5e5e4
+}
+#m_blog DIV.tit {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+#m_blog DIV.tit A {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #333333
+}
+#m_blog DIV.tit A:visited {
+	COLOR: #333333
+}
+#m_blog DIV.date {
+	MARGIN: 5px 0px 8px; COLOR: #666666
+}
+#m_blog DIV.cnt {
+	FONT-SIZE: 14px; COLOR: #333333; LINE-HEIGHT: 20px
+}
+#m_blog DIV.more {
+	MARGIN: 14px 0px 16px
+}
+#m_blog DIV.more A {
+	FONT-SIZE: 14px; COLOR: #3399cc
+}
+#m_blog DIV.more A:visited {
+	COLOR: #3399cc
+}
+#m_blog DIV.opt {
+	FONT-SIZE: 12px; COLOR: #666666
+}
+#m_blog DIV.opt A {
+	FONT-SIZE: 12px; COLOR: #3399cc
+}
+#m_blog DIV.opt A:visited {
+	COLOR: #3399cc
+}
+#m_blog DIV.line {
+	BORDER-TOP: #d2e9f4 1px solid; MARGIN-TOP: 17px; LINE-HEIGHT: 17px
+}
+#m_blog DIV.none {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 100px; COLOR: #333333; PADDING-TOP: 100px
+}
+#m_pro A {
+	COLOR: #3399cc
+}
+#m_pro A:visited {
+	COLOR: #3399cc
+}
+#m_pro DIV.image {
+	TEXT-ALIGN: center
+}
+#m_pro DIV.act {
+	MARGIN-TOP: 10px
+}
+#m_pro DIV.user {
+	MARGIN-TOP: 10px; FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #333333
+}
+#m_pro DIV.desc {
+	FONT-SIZE: 12px; COLOR: #333333
+}
+#m_pro DIV.line {
+	BORDER-TOP: #d2e9f4 1px solid; MARGIN-TOP: 17px; LINE-HEIGHT: 17px
+}
+#m_pro TD {
+	FONT-SIZE: 14px; COLOR: #333333; LINE-HEIGHT: 24px
+}
+#m_album DIV.image {
+	TEXT-ALIGN: center
+}
+#m_album DIV.page {
+	FONT-SIZE: 12px; COLOR: #666666; TEXT-ALIGN: center
+}
+#m_album DIV.page A {
+	FONT-SIZE: 12px; COLOR: #0000cc
+}
+#m_album DIV.page A:visited {
+	COLOR: #0000cc
+}
+#m_links DIV.item {
+	FONT-SIZE: 12px; COLOR: #333333
+}
+#m_links DIV.item A {
+	FONT-SIZE: 12px; COLOR: #3399cc; TEXT-DECORATION: none
+}
+#m_links DIV.item A:visited {
+	COLOR: #3399cc
+}
+#m_links DIV.line {
+	BORDER-TOP: #d2e9f4 1px solid; MARGIN-TOP: 5px; LINE-HEIGHT: 8px
+}
+#m_mylink1 DIV.item {
+	FONT-SIZE: 12px; COLOR: #333333
+}
+#m_mylink1 DIV.item A {
+	FONT-SIZE: 12px; COLOR: #3399cc; TEXT-DECORATION: none
+}
+#m_mylink1 DIV.item A:visited {
+	COLOR: #3399cc
+}
+#m_mylink1 DIV.line {
+	BORDER-TOP: #d2e9f4 1px solid; MARGIN-TOP: 5px; LINE-HEIGHT: 8px
+}
+#m_mylink2 DIV.item {
+	FONT-SIZE: 12px; COLOR: #333333
+}
+#m_mylink2 DIV.item A {
+	FONT-SIZE: 12px; COLOR: #3399cc; TEXT-DECORATION: none
+}
+#m_mylink2 DIV.item A:visited {
+	COLOR: #3399cc
+}
+#m_mylink2 DIV.line {
+	BORDER-TOP: #d2e9f4 1px solid; MARGIN-TOP: 5px; LINE-HEIGHT: 8px
+}
+#m_mylink3 DIV.item {
+	FONT-SIZE: 12px; COLOR: #333333
+}
+#m_mylink3 DIV.item A {
+	FONT-SIZE: 12px; COLOR: #3399cc; TEXT-DECORATION: none
+}
+#m_mylink3 DIV.item A:visited {
+	COLOR: #3399cc
+}
+#m_mylink3 DIV.line {
+	BORDER-TOP: #d2e9f4 1px solid; MARGIN-TOP: 5px; LINE-HEIGHT: 8px
+}
+#m_mylink4 DIV.item {
+	FONT-SIZE: 12px; COLOR: #333333
+}
+#m_mylink4 DIV.item A {
+	FONT-SIZE: 12px; COLOR: #3399cc; TEXT-DECORATION: none
+}
+#m_mylink4 DIV.item A:visited {
+	COLOR: #3399cc
+}
+#m_mylink4 DIV.line {
+	BORDER-TOP: #d2e9f4 1px solid; MARGIN-TOP: 5px; LINE-HEIGHT: 8px
+}
+#m_artclg DIV.item {
+	FONT-SIZE: 12px; COLOR: #666666
+}
+#m_artclg DIV.item A {
+	FONT-SIZE: 12px; COLOR: #3399cc
+}
+#m_artclg DIV.item A:visited {
+	COLOR: #3399cc
+}
+#m_artclg DIV.line {
+	BORDER-TOP: #d2e9f4 1px solid; MARGIN-TOP: 5px; LINE-HEIGHT: 8px
+}
+#m_filed DIV.item {
+	FONT-SIZE: 12px; COLOR: #666666
+}
+#m_filed DIV.item A {
+	FONT-SIZE: 12px; COLOR: #3399cc
+}
+#m_filed DIV.item A:visited {
+	COLOR: #3399cc
+}
+#m_filed DIV.line {
+	BORDER-TOP: #d2e9f4 1px solid; MARGIN-TOP: 5px; LINE-HEIGHT: 8px
+}
+#m_comment DIV.item {
+	FONT-SIZE: 12px; COLOR: #333333
+}
+#m_comment DIV.item A {
+	FONT-SIZE: 12px; COLOR: #3399cc
+}
+#m_comment DIV.item A:visited {
+	COLOR: #3399cc
+}
+#m_comment DIV.item A.cnt {
+	FONT-SIZE: 12px; COLOR: #333333; TEXT-DECORATION: none
+}
+#m_comment DIV.item A.cnt:visited {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+#m_comment DIV.item A.cnt:hover {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+#m_comment DIV.line {
+	BORDER-TOP: #d2e9f4 1px solid; MARGIN-TOP: 5px; LINE-HEIGHT: 8px
+}
+#m_albumlist DIV.note {
+	FONT-SIZE: 14px; COLOR: #333333
+}
+#m_albumlist DIV.desc {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 14px; MARGIN-BOTTOM: 12px; PADDING-BOTTOM: 3px; LINE-HEIGHT: 22px; PADDING-TOP: 3px; BACKGROUND-COLOR: #f2f2f2
+}
+#m_albumlist DIV.none {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 100px; COLOR: #333333; PADDING-TOP: 100px
+}
+#m_albumlist DIV.line {
+	BORDER-TOP: #d2e9f4 1px solid; MARGIN-TOP: 10px; LINE-HEIGHT: 16px
+}
+#m_albumlist DIV.tit {
+	FONT-SIZE: 14px; MARGIN: 6px 0px 7px; COLOR: #333333
+}
+#m_albumlist DIV.tit A {
+	FONT-SIZE: 14px; COLOR: #3399cc
+}
+#m_albumlist DIV.tit A:visited {
+	COLOR: #3399cc
+}
+#m_albumlist SPAN.count {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #666666
+}
+#m_albumlist SPAN.size {
+	FONT-SIZE: 12px; COLOR: #999999; FONT-FAMILY: Arial
+}
+#m_albumlist A.act {
+	FONT-SIZE: 12px; COLOR: #3399cc
+}
+#m_albumlist A.act:visited {
+	COLOR: #3399cc
+}
+#m_albumlist A.page {
+	FONT-SIZE: 14px; COLOR: #0000cc
+}
+#m_albumlist A.page:visited {
+	COLOR: #0000cc
+}
+#m_albumlist TD.image {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 5px; BACKGROUND: #ffffff; PADDING-BOTTOM: 5px; BORDER-LEFT: #999999 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #999999 1px solid
+}
+#m_friend DIV.filter {
+	PADDING-LEFT: 10px; MARGIN-BOTTOM: 10px; LINE-HEIGHT: 27px; PADDING-TOP: 10px; HEIGHT: 27px
+}
+#m_friend DIV.catalog {
+	PADDING-LEFT: 10px; FONT-SIZE: 14px; MARGIN-BOTTOM: 10px; LINE-HEIGHT: 27px; HEIGHT: 27px; BACKGROUND-COLOR: #f2f2f2
+}
+#m_friend DIV.user {
+	MARGIN-TOP: 4px; FONT-SIZE: 12px; COLOR: #333333
+}
+#m_friend DIV.user A {
+	FONT-SIZE: 12px; COLOR: #3399cc
+}
+#m_friend DIV.user A:visited {
+	COLOR: #3399cc
+}
+#m_friend DIV.line {
+	BORDER-TOP: #d2e9f4 1px solid; MARGIN-TOP: 10px; LINE-HEIGHT: 16px
+}
+#m_setting A {
+	COLOR: #3399cc
+}
+#m_setting A:visited {
+	COLOR: #3399cc
+}
+#m_setting {
+	FONT-SIZE: 14px; COLOR: #333333; LINE-HEIGHT: 22px
+}
+#m_setting IMG.sel {
+	BORDER-RIGHT: #ffdb7b 4px solid; BORDER-TOP: #ffdb7b 4px solid; BORDER-LEFT: #ffdb7b 4px solid; BORDER-BOTTOM: #ffdb7b 4px solid
+}
+#m_setting IMG.unsel {
+	BORDER-RIGHT: #d2d2d2 1px solid; BORDER-TOP: #d2d2d2 1px solid; BORDER-LEFT: #d2d2d2 1px solid; BORDER-BOTTOM: #d2d2d2 1px solid
+}
+#m_setting SPAN.tit {
+	FONT-SIZE: 14px
+}
+#m_setting SPAN.usr {
+	COLOR: #666666
+}
+#m_setting DIV.sel {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-TOP: 6px
+}
+#m_setting DIV.line {
+	BORDER-TOP: #d2e9f4 1px solid; MARGIN-TOP: 20px; LINE-HEIGHT: 16px
+}
+#m_sysinfo A {
+	COLOR: #3399cc
+}
+#m_sysinfo A:visited {
+	COLOR: #3399cc
+}
+#m_sysinfo {
+	FONT-SIZE: 14px; COLOR: #333333; LINE-HEIGHT: 22px
+}
+#m_sysinfo SPAN.new {
+	FONT-SIZE: 10px; COLOR: #ff0000; FONT-FAMILY: Arial
+}
+#m_sysinfo SPAN.date {
+	FONT-SIZE: 14px; COLOR: #666666
+}
+#m_setbase {
+	FONT-SIZE: 14px; COLOR: #333333
+}
+#m_setbase TD {
+	FONT-SIZE: 14px; COLOR: #333333
+}
+#m_setbase DIV.line {
+	BORDER-TOP: #d2e9f4 1px solid; MARGIN-TOP: 5px; LINE-HEIGHT: 8px
+}
+#in_comment {
+	WIDTH: 710px
+}
+#in_comment DIV.tit {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN-BOTTOM: 12px; COLOR: #333333
+}
+#in_comment DIV.user {
+	FONT-SIZE: 12px; MARGIN-BOTTOM: 6px; COLOR: #333333
+}
+#in_comment DIV.user A {
+	FONT-SIZE: 12px; COLOR: #3399cc
+}
+#in_comment DIV.user A:visited {
+	COLOR: #3399cc
+}
+#in_comment DIV.user SPAN.date {
+	FONT-SIZE: 12px; COLOR: #666666
+}
+#in_comment DIV.desc {
+	FONT-SIZE: 12px; COLOR: #333333
+}
+#in_comment DIV.line {
+	BORDER-TOP: #d2e9f4 1px solid; MARGIN-TOP: 17px; LINE-HEIGHT: 17px
+}
+#in_send DIV.tit {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN: 10px 0px; COLOR: #333333
+}

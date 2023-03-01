@@ -1,4 +1,38 @@
+# MRSServer编译和打包
+操作步骤
+1.进入源码根目录：cd MRSServer
+2.创建生成目录：mkdir build
+3.进入生成目录：cd build
+4.生成Makefile：cmake ../
+5.编译源码：make -j10
+6.软件打包：make package，即可生成打包好的文件MRSServer-V* .sh
+7.安装软件：./MRSServer-V*.sh，直接按照提示操作即可。
+# MRS在WSL下编译环境配置
+1.打开wsl功能。
+2.安装Ubuntu-16.04.
+3.升级wsl2.
+4.安装cuda。（
+sudo apt-key adv --fetch-keys http://developer.download.nvidia.cn/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
+sudo sh -c 'echo "deb http://developer.download.nvidia.cn/compute/cuda/repos/ubuntu1604/x86_64 /" > /etc/apt/sources.list.d/cuda.list'
+sudo apt-get update
+sudo apt-get install -y cuda-toolkit-11-0
+）
+5.安装依赖库:
+- sudo apt install make gcc g++ 
+- sudo apt install cmake cmake-curses-gui
+- sudo apt install qt5-default
+- sudo apt install libdcmtk-dev libtinyxml-dev libjsoncpp-dev
+- sudo apt install libqwt-dev libqwt-qt5-dev 
+- sudo apt install flex bison
+6.安装vsCode.
+6.1.安装Remote - WSL 插件
+6.2.安装插件CMake Tools。
+6.3.安装插件c/C++
+![](vx_images/552323811240110.png)
+
 # 代码结构分析
+## 常见事件触发机制
+1.停止移床，发生TableReachEnd
 
 
 **mermaid**　扩展词汇　
