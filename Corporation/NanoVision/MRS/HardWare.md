@@ -18,6 +18,10 @@ Gantry（机架）、球管、射线源、高压柜、电源柜
 
 # Gantry
 
+机械硬限位（两条黑线之间）：214.38度
+红外软限位（两条红线之间）：205.27度
+红外零限位（黄色跟最近的红色之间）：2.43度
+![](vx_images/560353210230364.png)
 ## CTBox
 WorkMode 的状态
 ![](vx_images/515421213241589.png)
@@ -89,6 +93,9 @@ Vlan20  78.86.67.72_79
   b.轴扫进床距离 42.24    = 256  *  0.165 = 42.24
   c.轴扫床速        40
   d.螺旋扫偏移   47.54 
+SFOV=3072* 0.165=506.88
+Columns=506.88/(0.165*4 Binnning)=768
+PixelSpcacing=506.88/768=0.66
 ## MRSServer用到的几个变量
 SOD  Distance Source to Detector (0018,1110) 1139.2 //来自MRSServer代码，写死的
 SOP  Distance Source to Patient  (0018,1111) 708 //来自MRSServer代码，写死的
