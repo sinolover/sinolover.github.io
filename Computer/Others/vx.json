@@ -146,6 +146,9 @@
         },
         {
             "name": "BI"
+        },
+        {
+            "name": "PowerShell"
         }
     ],
     "id": "1283",
