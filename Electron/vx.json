@@ -23,6 +23,9 @@
         }
     ],
     "folders": [
+        {
+            "name": "CAN"
+        }
     ],
     "id": "79",
     "modified_time": "2022-12-02T10:28:31Z",
