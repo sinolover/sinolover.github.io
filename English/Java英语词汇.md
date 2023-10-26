@@ -21,6 +21,9 @@ KK是John S. Kenyon 与Thomas A.Knott（二人同为美国语言学家）的缩�
 - 英 \['ælɡərɪðəm\]  美 \['ælɡərɪðəm\] 
 -  n. 算法
 
+**gemini**　畅通词汇　
+- 英 ['dʒemɪnaɪ] 　 　 美 ['dʒemɪnaɪ] 　 　
+- n. 双子座；【天】双子宫
 
 **porcelain**　常用词汇　
 - 英 ['pɔːsəlɪn] 　 　 美 ['pɔːrsəlɪn] 　 　

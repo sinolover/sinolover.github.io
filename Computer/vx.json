@@ -89,6 +89,12 @@
         },
         {
             "name": "Others"
+        },
+        {
+            "name": "VSCode"
+        },
+        {
+            "name": "CUDA"
         }
     ],
     "id": "5",
