@@ -83,3 +83,34 @@ taskschd.msc
         -disk-cache-dir=\"O:/temp\" -disk-cache-size=104857600  -profile-directory=\"Default\"  
 5. 创建快捷方式 shutdown -s -t 0  ，并设置快捷键： ctrl + alt + shift + s
 6. 打开桌面图标 我的电脑 网上邻居 等
+
+# ANI AGI ASI
+人工智能可以分为：
+弱人工智能(Artificial Narrow Intelligence，简称ANI)
+强人工智能(Artificial General Intelligence简称AGI)
+超人工智能(Artificial Superintelligence简称ASI)三个等级。
+
+# ABI(Application Binary Interface): 
+应用程序二进制接口 描述了应用程序和操作系统之间，一个应用和它的库之间，或者应用的组成部分之间的低接口。
+
+# 右值
+左值特点：有可能：有名，可取址，能存值（具名，能存值，可取址）
+具名，可址，可值
+左值，可以放在等号左边的值，特点：有名字，能够取址，可以存值
+
+# Unicode
+Unicode是一种字符集，而UTF-8是Unicode的一种实现方式。此外，Unicode定义了每个字符的编号和名称，而UTF-8则是一种用于在计算机上存储和传输Unicode字符的编码方式
+Unicode编码范围是从U+00_0000到U+10_FFFF（十六进制）
+Unicode编码方案定义了17个平面（Plane）：0x00-0x10，每个平面包含65,536个码位：FFFF两个字节，总共有1,114,112个码位。名列前茅个平面（Plane 0，也称为基本多文种平面（Basic Multilingual Plane，BMP））包含了大部分常用的字符和符号，包括ASCII字符集和大部分欧洲语言中的字符。其他平面包含了一些罕见的字符和符号，例如古文字、符号和表情符号等。
+
+# string
+概括一下strlen、strcpy/strncpy、strcat/strncat、strcmp/strncmp、strchr/strrchr、strstr、strtok、atoi/atol/atof/itoa/ltoa/ftoa
+
+rpath : runtime library directory
+
+
+# c++运算符优先级
+乘除余加减，移位比较，等于不等于，位逻辑
+
+野指针，未初始化的，不知道指向哪里，所以野
+悬空指针，被释放，未置空的。明确知道指向哪个地址，只是改地址内存已经还给操作系统了

@@ -5,6 +5,8 @@ AHD是The American Heritage Dictionary of the English Language缩写；
 DJ是Daniel Jones（1881 – 1967 英国语音学家）的缩写；
 KK是John S. Kenyon 与Thomas A.Knott（二人同为美国语言学家）的缩写。
 
+WINS：Windows Internet Name Server
+
 **Forensic**　扩展词汇　
 - 英 [fə'rensɪk] 　 　 美 [fə'rensɪk] 　 　
 - adj. 法院的；关于法庭的；适合于辩论的

@@ -39,7 +39,7 @@ if (!path.Equals(string.Empty))       //判断Dicom文件夹是否为空
         string filename = path + "\\" + f.Name; //得到单个文件的文件路径名
         var dcmFile = DicomFile.Open(filename); // 打开dcm文件
         var pixelData = PixelDataFactory.Create(DicomPixelData.Create(dcmFile.Dataset), 0); //获取第0帧的pixeldata，想获取其他帧修改即可，我的数据只有一帧，返回IPixelData类型      
-        //获取单个Diocm数据中，（w，h）处的像素信息             
+        //获取单个Dicom数据中，（w，h）处的像素信息             
         if (pixelData is Dicom.Imaging.Render.GrayscalePixelDataS16)
         {
             float[] pixel_data = new float[pixelData.Width * pixelData.Height]; //存储本dcm文件所有点的像素  

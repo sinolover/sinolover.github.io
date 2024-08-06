@@ -26,8 +26,8 @@ Gantry（机架）、球管、射线源、高压柜、电源柜
 WorkMode 的状态
 ![](vx_images/515421213241589.png)
 ChildNodes Online Status：硬件在线状态，哪些在线（哪些设备当前有效）；
-ChildNodes Exposure  En：判断ready使能位，需要判哪些节点ready；(由MRSServer m_pControl->SetExposureMode下发)
-ChildNodes Ready Status：是实际有哪些节点ready了。
+ChildNodes Exposure  En：判断ready使能位，需要判哪些节点曝光时需要ready使能；(由MRSServer m_pControl->SetExposureMode下发)
+ChildNodes Ready Status：实际有哪些节点ready了。
 
 ifbox tubeInff mtCtrl 都有status寄存器，每个位的信息也都一样，区别如下：
 ifbox 收到prep 后就会突发ready  。
@@ -84,7 +84,7 @@ Vlan20  78.86.67.72_79
   d. 十字激光点0 到 两块荧光板拼接缝的距离 ：392mm
 ## ISO尺寸(程序中用到的尺寸)
 1. 像素大小：0.165mm (0.265  *  SOD/SID)
-2. 像素数量：288 * 160 * 2（z轴2个探测器拼接）
+2. 像素数量：160 * 144 * 2（z轴2个探测器拼接）
 3. 探测器宽度：288 * 0.165=47.52mm
 > 历史上使用过47.23(0.164) 探测器宽度最早值，之后改为47.52（0.165）
 4. 扫描脉冲时间：36源：5ms 108源：0.1ms
@@ -107,6 +107,9 @@ SOD Source O   Distance 源到原点距离(mm)
 1. Sid垂直1143.7 斜到探测器1148 //来自丁海宁
 2. Sod 约708.95 // 来自丁海宁
 3. offsetZ = 100; //探测器Z向偏心(mm)【球管射线铅垂线到物理探测器中心距离(也就是两个探测器的拼接缝处)】
+
+探测器 像素 顺序
+![WeChat Image_20220401142310](vx_images/152715509240745.jpg)
 
 ## 探测器数据抓包
 对探测器上传的数据进行抓包
@@ -224,6 +227,12 @@ MCS固定主控板 20A  00000 0100 0001   010   29 20
 
 30 回心跳 3个30 回 一个 29 3s
 32 回box按键使能 10个32 回一个 20
+
+
+# CAN总线的拓扑
+按照之前的方案，CAN总线的拓扑如下图中的CAN1, 由于ctbox有控制第二路CAN的功能需求，当时为了协议控制简便，开发CAN2接口用于实现控制盒、病床和panel的控制。此三个子部件由上海同事负责研发，当时设定的机制是每10ms突发一次状态，三个节点平均3m/s一条CAN报文，甚至更快。ctbox由于性能有限，处理如此多的报文可能稳定性不太好，故造成CAN总线不稳定，导致某些CAN模块异常。
+![](vx_images/249154416240745.png)
+
 
 
 # MRSTool
@@ -354,3 +363,15 @@ Rtd改为 540 view
 ![](vx_images/27452011256515.png)
 
 ![](vx_images/507261911255883.png)
+
+
+
+
+# 限速器
+波太结构图_20220425154628
+
+![波太结构图_20220425154628](vx_images/518795709259171.png)
+
+
+限速器开口调整
+![限速器开口调整_20220317112741](vx_images/154255809247038.jpg)

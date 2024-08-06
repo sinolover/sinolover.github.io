@@ -1,0 +1,83 @@
+{
+    "created_time": "2024-02-04T01:30:50Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2024-02-04T01:39:21Z",
+            "id": "1398",
+            "modified_time": "2024-02-04T08:05:32Z",
+            "name": "note.md",
+            "signature": "79316868065993",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2024-02-04T07:46:44Z",
+            "id": "1399",
+            "modified_time": "2024-02-04T07:48:21Z",
+            "name": "TTL电路的拉电流、灌电流、扇出数及扇出数计算.md",
+            "signature": "177800691940",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2024-02-04T09:20:05Z",
+            "id": "1404",
+            "modified_time": "2024-02-04T09:30:56Z",
+            "name": "时序逻辑和组合逻辑的区别和使用.md",
+            "signature": "27206029891269",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2024-02-06T01:47:31Z",
+            "id": "1415",
+            "modified_time": "2024-02-06T01:51:45Z",
+            "name": "触发器详解.md",
+            "signature": "177800843187",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2024-02-06T01:53:17Z",
+            "id": "1416",
+            "modified_time": "2024-02-06T02:09:38Z",
+            "name": "reg和wire 用法和区别以及always和assign的区别.md",
+            "signature": "2110536126733",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2024-02-07T03:31:46Z",
+            "id": "1441",
+            "modified_time": "2024-02-07T03:32:04Z",
+            "name": "深入理解 FPGA 的基础结构.md",
+            "signature": "103441699633570",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+        {
+            "name": "Verilog语法"
+        },
+        {
+            "name": "Verilog HDL"
+        },
+        {
+            "name": "verilog语法学习"
+        },
+        {
+            "name": "Verilog代码和FPGA硬件的映射关系"
+        }
+    ],
+    "id": "1397",
+    "modified_time": "2024-02-04T01:30:50Z",
+    "signature": "177800669386",
+    "version": 3
+}
