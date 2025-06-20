@@ -104,7 +104,7 @@ message Foo {
 *   对于 `Go`，编译器会生成一个 `.pb.go` 文件，其中包含文件中每种消息类型的类型。
 *   对于 `Ruby`，编译器会生成一个 `.rb` 文件，其中包含一个包含消息类型的 Ruby 模块。
 *   对于 `Objective-C`，编译器从每个 `.proto` 生成一个 `pbobjc.h` 和 `pbobjc.m` 文件，并为文件中描述的每种消息类型提供一个类。
-*   对于 `C#`，编译器从每个 `.proto` 生成一个 `.cs` 文件，其中包含文件中描述的每种消息类型的类。
+*   对于 `C#`，编译器从每个 `.proto` 生成一个 `.cs` 文件，其中包含文件中描述的每种消息类型的类。临时生成Grpc****.cs文件，其中包含 Base 以及 Client两个类
 *   对于 `Dart`，编译器会生成一个 `.pb.dart` 文件，其中包含文件中每种消息类型的类。
 
 你可以按照所选语言的教程（即将推出 proto3 版本）了解有关使用每种语言的 API 的更多信息。 有关更多 API 详细信息，请参阅相关 [API 参考](https://developers.google.com/protocol-buffers/docs/reference/overview)（proto3 版本也即将推出）。

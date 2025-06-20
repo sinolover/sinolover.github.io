@@ -92,8 +92,6 @@ PLC、计算机网络技术、家电维修、通信原理、机械制图等
 有热水，洗衣机，无额外费用，
 联系电话17147232133
 
-## GSK3228836
-https://db.yaozh.com/linchuangshiyan?comprehensivesearchcontent=GSK3228836
 
 ## 联系人
 
@@ -176,7 +174,7 @@ https://db.yaozh.com/linchuangshiyan?comprehensivesearchcontent=GSK3228836
 C++考试？
 留个联系方式？18629296094
 
-工会
+## 工会电话
 周浦工会68114013
 上海总工会12351
 50879104  50879091
